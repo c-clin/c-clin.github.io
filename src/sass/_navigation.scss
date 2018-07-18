@@ -1,0 +1,19 @@
+.Navigation {
+  &__container {
+    font-size: 2rem;
+  }
+
+  &__list {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  &__list-item {
+    display: inline-block;
+
+    &:not(:last-child) {
+      margin-right: 3rem;
+    }
+  }
+}

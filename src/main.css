@@ -1,0 +1,57 @@
+.App {
+  background-image: linear-gradient(to left top, rgba(117, 182, 235, 0.7) 50%, rgba(221, 244, 252, 0.75)), url("./assets/hero.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh; }
+
+.Header {
+  height: 100vh;
+  position: relative; }
+  .Header__text-box {
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    color: #fffff3; }
+    .Header__text-box--primary {
+      font-weight: 700;
+      font-size: 2.9rem; }
+    .Header__text-box--secondary {
+      font-size: 1.8rem;
+      letter-spacing: 3px;
+      font-weight: 300; }
+  .Header__social-links:hover > .icon {
+    color: rgba(255, 255, 243, 0.4); }
+  .Header__social-links .icon {
+    float: left;
+    font-size: 2.5rem;
+    margin: 2rem 4rem 2rem 2rem;
+    transition: color 0.2s; }
+    .Header__social-links .icon:hover {
+      color: #fffff3; }
+
+.Navigation__container {
+  font-size: 2rem; }
+
+.Navigation__list {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end; }
+
+.Navigation__list-item {
+  display: inline-block; }
+  .Navigation__list-item:not(:last-child) {
+    margin-right: 3rem; }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit; }
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+  font-family: 'Lato', sans-serif; }
