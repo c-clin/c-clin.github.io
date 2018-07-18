@@ -1,12 +1,15 @@
 {
-  "main.css": "static/css/main.1f833ab3.css",
-  "main.css.map": "static/css/main.1f833ab3.css.map",
-  "main.js": "static/js/main.47025184.js",
-  "main.js.map": "static/js/main.47025184.js.map",
+  "main.css": "static/css/main.50761320.css",
+  "main.css.map": "static/css/main.50761320.css.map",
+  "main.js": "static/js/main.2ca3ffb3.js",
+  "main.js.map": "static/js/main.2ca3ffb3.js.map",
+  "static/media/bars2nite.jpg": "static/media/bars2nite.4d7afd3d.jpg",
   "static/media/fontawesome-webfont.eot": "static/media/fontawesome-webfont.674f50d2.eot",
   "static/media/fontawesome-webfont.svg?v=4.7.0": "static/media/fontawesome-webfont.912ec66d.svg",
   "static/media/fontawesome-webfont.ttf?v=4.7.0": "static/media/fontawesome-webfont.b06871f2.ttf",
   "static/media/fontawesome-webfont.woff2?v=4.7.0": "static/media/fontawesome-webfont.af7ae505.woff2",
   "static/media/fontawesome-webfont.woff?v=4.7.0": "static/media/fontawesome-webfont.fee66e71.woff",
-  "static/media/hero.jpg": "static/media/hero.f411db8d.jpg"
+  "static/media/hero.jpg": "static/media/hero.f411db8d.jpg",
+  "static/media/moviedeets.jpg": "static/media/moviedeets.4716f6cd.jpg",
+  "static/media/prickles.jpg": "static/media/prickles.ab590237.jpg"
 }
