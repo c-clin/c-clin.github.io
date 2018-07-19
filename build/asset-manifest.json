@@ -1,9 +1,11 @@
 {
-  "main.css": "static/css/main.5b97aa7d.css",
-  "main.css.map": "static/css/main.5b97aa7d.css.map",
-  "main.js": "static/js/main.c9380a55.js",
-  "main.js.map": "static/js/main.c9380a55.js.map",
+  "main.css": "static/css/main.e6e8da89.css",
+  "main.css.map": "static/css/main.e6e8da89.css.map",
+  "main.js": "static/js/main.65b23e2e.js",
+  "main.js.map": "static/js/main.65b23e2e.js.map",
+  "static/media/angular-task-manager.jpg": "static/media/angular-task-manager.7b7b780c.jpg",
   "static/media/bars2nite.jpg": "static/media/bars2nite.4d7afd3d.jpg",
+  "static/media/book-club.jpg": "static/media/book-club.0d21d11f.jpg",
   "static/media/fontawesome-webfont.eot": "static/media/fontawesome-webfont.674f50d2.eot",
   "static/media/fontawesome-webfont.svg?v=4.7.0": "static/media/fontawesome-webfont.912ec66d.svg",
   "static/media/fontawesome-webfont.ttf?v=4.7.0": "static/media/fontawesome-webfont.b06871f2.ttf",
@@ -11,5 +13,9 @@
   "static/media/fontawesome-webfont.woff?v=4.7.0": "static/media/fontawesome-webfont.fee66e71.woff",
   "static/media/hero.jpg": "static/media/hero.f411db8d.jpg",
   "static/media/moviedeets.jpg": "static/media/moviedeets.4716f6cd.jpg",
-  "static/media/prickles.jpg": "static/media/prickles.ab590237.jpg"
+  "static/media/neighborhood-map.jpg": "static/media/neighborhood-map.5a3bda07.jpg",
+  "static/media/prickles.jpg": "static/media/prickles.ab590237.jpg",
+  "static/media/simon-game.jpg": "static/media/simon-game.b23eca0d.jpg",
+  "static/media/votenow.jpg": "static/media/votenow.1cc3ce5e.jpg",
+  "static/media/weather-app.jpg": "static/media/weather-app.cf2cf4ef.jpg"
 }
