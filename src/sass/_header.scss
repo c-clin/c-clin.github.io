@@ -1,0 +1,101 @@
+.Header {
+  background-image: linear-gradient(
+      to left top,
+      rgba($blue, 0.7) 50%,
+      rgba($light-blue, 0.75)
+    ),
+    url('./assets/hero.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100vh;
+  position: relative;
+
+  @media only screen and (max-width: 900px) {
+    background-attachment: scroll !important;
+    background-position: center center !important;
+  }
+
+  &__text-box {
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    color: $color-primary-white;
+
+    @media only screen and (max-width: 500px) {
+      left: 10%;
+    }
+
+    &--primary {
+      font-weight: 700;
+      font-size: 3.6rem;
+      animation: moveInLeft;
+      animation-duration: 1.7s;
+      animation-timing-function: ease-out;
+
+      @media only screen and (max-width: 800px) {
+        font-size: 3.2rem;
+      }
+    }
+
+    &--secondary {
+      font-size: 2rem;
+      margin: 0.5rem auto;
+      letter-spacing: 3px;
+      font-weight: 300;
+      animation: moveInRight;
+      animation-duration: 1.7s;
+      animation-timing-function: ease-out;
+
+      @media only screen and (max-width: 800px) {
+        font-size: 1.6rem;
+      }
+    }
+  }
+
+  hr {
+    margin: 4rem auto;
+    width: 550px;
+    border: 0;
+    height: 1.2px;
+    background-image: linear-gradient(
+      to right,
+      rgba($color-primary-white, 0.75) 65%,
+      rgba(0, 0, 0, 0)
+    );
+
+    @media only screen and (max-width: 800px) {
+      width: 400px;
+    }
+
+    @media only screen and (max-width: 500px) {
+      width: 300px;
+    }
+  }
+
+  &__social-links {
+    animation: moveInTop;
+    animation-duration: 1.7s;
+    animation-timing-function: ease-out;
+
+    a {
+      text-decoration: none;
+      color: $color-primary-white;
+    }
+
+    &:hover > a {
+      color: rgba($color-primary-white, 0.4);
+    }
+
+    .icon {
+      float: left;
+      font-size: 2.5rem;
+      margin: 2rem 4rem 2rem 2rem;
+      transition: color 0.2s;
+
+      &:hover {
+        color: $color-primary-white;
+      }
+    }
+  }
+}

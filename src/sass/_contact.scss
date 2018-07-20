@@ -1,0 +1,177 @@
+.Contact {
+  padding: 9rem 0;
+  background-color: $color-primary-white;
+  display: flex;
+
+  @media only screen and (max-width: 1100px) {
+    display: block;
+  }
+
+  .contact-links {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    height: 14rem;
+
+    @media only screen and (max-width: 850px) {
+      display: block;
+      height: 80rem;
+    }
+
+    &__container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      position: absolute;
+      text-decoration: none;
+      cursor: pointer;
+
+      @media only screen and (max-width: 850px) {
+        display: block;
+        width: 100%;
+        position: relative;
+      }
+
+      &--1 {
+        left: 6rem;
+        @media only screen and (max-width: 850px) {
+          left: 0;
+          text-align: center;
+        }
+      }
+
+      &--2 {
+        @media only screen and (max-width: 850px) {
+          text-align: center;
+        }
+      }
+
+      &--3 {
+        right: 6rem;
+
+        @media only screen and (max-width: 850px) {
+          right: 0;
+          text-align: center;
+        }
+      }
+
+      .contact-icon {
+        font-size: 3.5rem;
+        padding: 1.6rem 2.2rem 1.7rem 2.2rem;
+        border-radius: 50%;
+        margin-bottom: 2rem;
+        transition: all 0.4s;
+        color: $color-primary-white;
+        background-image: linear-gradient(
+          to right bottom,
+          $color-primary-blue 20%,
+          #4790cc
+        );
+        @media only screen and (max-width: 850px) {
+          padding: 3rem 8rem 12rem 8rem;
+          transform: translateY(1rem);
+          transition: all 0.4s;
+        }
+      }
+
+      p {
+        position: absolute;
+        top: 10rem;
+        color: #4790cc;
+        transition: color 0.4s;
+
+        @media only screen and (max-width: 850px) {
+          text-align: center;
+          @include absCenter;
+          color: $color-primary-white;
+          top: 11rem;
+        }
+      }
+
+      img {
+        width: 90px;
+        height: 90px;
+        cursor: pointer;
+      }
+
+      &:hover {
+        .contact-icon {
+          padding: 3rem 8rem 12rem 8rem;
+          transform: translateY(1rem);
+          transition: all 0.4s;
+        }
+
+        p {
+          color: $color-primary-white;
+        }
+
+        @media only screen and (max-width: 850px) {
+          .contact-icon {
+            padding: 3rem 8rem 12rem 8rem;
+            transform: translateY(1rem);
+          }
+        }
+      }
+    }
+  }
+}
+
+.contact-photo {
+  width: 150px;
+  height: 200px;
+  margin: 0 auto;
+  margin-bottom: 3rem;
+  position: relative;
+  backface-visibility: hidden;
+  perspective: 1500px;
+  transition: all 0.8s ease;
+
+  &--icon {
+    width: 100%;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 5px solid $color-primary-blue;
+    box-sizing: content-box;
+    transition: all 0.8s ease;
+    position: absolute;
+    backface-visibility: hidden;
+    transition: all 0.8s ease;
+  }
+
+  &--back {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    background-image: linear-gradient(
+      to right bottom,
+      $color-primary-blue 20%,
+      #4790cc
+    );
+    position: absolute;
+    backface-visibility: hidden;
+    transform: rotateY(180deg);
+    transition: all 0.8s ease;
+
+    p {
+      @include absCenter;
+      text-align: center;
+      font-size: 1.9rem;
+      color: $color-primary-white;
+
+      .smile-icon {
+        display: block;
+        margin-top: 10px;
+        font-size: 2.3rem;
+      }
+    }
+  }
+
+  &:hover &--icon {
+    transform: rotateY(-180deg);
+  }
+
+  &:hover &--back {
+    transform: rotateY(0);
+  }
+}

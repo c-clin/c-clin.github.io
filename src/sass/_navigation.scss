@@ -1,0 +1,99 @@
+.Navigation {
+  top: 0;
+  opacity: 1;
+  position: fixed;
+  width: 100%;
+  transition: all 0.4s;
+  height: 9rem;
+  z-index: 10000;
+
+  &__container {
+    font-size: 1.4rem;
+    height: 100%;
+  }
+
+  &__list {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    color: $color-primary-white;
+    text-transform: uppercase;
+    height: 100%;
+
+    @media only screen and (max-width: 750px) {
+      justify-content: center;
+    }
+  }
+
+  &__list-item {
+    display: inline-block;
+    margin: 2.7rem;
+
+    @media only screen and (max-width: 500px) {
+      margin: 2.1rem;
+    }
+
+    &:not(:last-child) {
+      margin-right: 3.5rem;
+
+      @media only screen and (max-width: 500px) {
+        margin-right: 2.2rem;
+      }
+    }
+
+    a {
+      cursor: pointer;
+      position: relative;
+
+      &:hover {
+        &::after {
+          width: 100%;
+        }
+      }
+
+      &::after {
+        position: absolute;
+        bottom: -5px;
+        left: 0;
+        right: 0;
+        margin: auto;
+        width: 0%;
+        content: '.';
+        color: transparent;
+        height: 2px;
+        transition: all 0.5s;
+      }
+    }
+  }
+}
+
+.appear {
+  top: 0;
+  opacity: 1;
+  background-color: $color-primary-white;
+  box-shadow: 0 1rem 5rem rgba(0, 0, 0, 0.1);
+  transition: all 1s;
+
+  .Navigation__list {
+    color: $color-primary-black;
+  }
+}
+
+.disappear {
+  top: -100%;
+  opacity: 0;
+  transition: all 2.5s;
+}
+
+.top-link-hover {
+  &::after {
+    background: $color-primary-white !important;
+  }
+}
+
+.bottom-link-hover {
+  &::after {
+    background: $color-primary-blue !important;
+  }
+}

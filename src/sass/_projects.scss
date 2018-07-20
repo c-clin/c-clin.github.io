@@ -1,0 +1,128 @@
+.Projects {
+  padding: 9rem 0;
+  display: flex;
+  background-color: $color-primary-white;
+  font-family: 'Lato', sans-serif;
+
+  @media only screen and (max-width: 1100px) {
+    display: block;
+  }
+
+  .project-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .project {
+    width: 30%;
+    border-radius: 3px;
+    transition: all 0.2s;
+    overflow: hidden;
+    margin: 1rem;
+
+    @media only screen and (max-width: 900px) {
+      width: 250px;
+    }
+
+    &:hover {
+      z-index: 20;
+      transform: scale(1.05) translateY(-0.5rem);
+
+      img {
+        -webkit-filter: blur(1px) brightness(0.3);
+        filter: blur(1px) brightness(0.3);
+        box-shadow: 0 2.5rem 4rem rgba(0, 0, 0, 0.5);
+      }
+
+      .overlay-text {
+        transform: translate(-50%, -50%);
+        opacity: 1;
+      }
+    }
+
+    img {
+      width: 100%;
+      border-radius: 3px;
+      transform: scale(1.02);
+      transition: filter 0.3s, box-shadow 0.3s, transform 3s;
+      box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.4);
+    }
+
+    .overlay-text {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, 30%);
+      opacity: 0;
+      color: $color-primary-white;
+      transition: all 0.3s;
+
+      backface-visibility: hidden;
+
+      h3 {
+        font-size: 2rem;
+        text-align: center;
+        font-weight: 400;
+      }
+
+      .links {
+        text-align: center;
+        margin-top: 2.5rem;
+
+        a {
+          font-size: 1.2rem;
+          text-decoration: none;
+          padding: 0.6rem 2.3rem 0.7rem 2.3rem;
+          border: 2px solid $light-blue;
+          border-radius: 100px;
+          color: $light-blue;
+          transition: all 0.2s;
+
+          &:first-child {
+            margin-right: 5px;
+          }
+
+          &:hover {
+            background-color: $light-blue;
+            color: $color-primary-black;
+          }
+        }
+      }
+    }
+  }
+}
+
+.go-back-btn {
+  position: absolute;
+  font-family: 'Lato', sans-serif;
+  top: 5rem;
+  right: 7rem;
+  font-size: 2.2rem;
+  font-weight: 300;
+  background-color: transparent;
+  border: none;
+  color: $color-primary-white;
+  cursor: pointer;
+  transition: all 0.3s;
+
+  span {
+    margin-right: 0.6rem;
+    transition: margin-right 0.3s;
+  }
+
+  &:hover {
+    background-color: rgba($light-blue, 0.8);
+    color: $color-primary-black;
+
+    span {
+      outline: none;
+      margin-right: 1.6rem;
+    }
+  }
+
+  &:focus,
+  &:visited {
+    outline: none;
+  }
+}
