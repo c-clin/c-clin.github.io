@@ -9,15 +9,48 @@ import neightborhoodMap from '../assets/neighborhood-map.jpg';
 import simonGame from '../assets/simon-game.jpg';
 import angularTask from '../assets/angular-task-manager.jpg';
 import weatherApp from '../assets/weather-app.jpg';
+import douliuPomelo from '../assets/douliu-pomelo.jpg';
 
 const Projects = props => {
   return (
     <div>
       <Footer />
+      <div className="Projects" style={{ padding: '9rem 0 0 0' }}>
+        <div className="heading-box">
+          <h2>Freelance Work</h2>
+        </div>
+        <div className="content-box">
+          <div className="project-box">
+            <div className="project">
+              <img src={douliuPomelo} alt="Douliu Pomelo" />
+              <div className="overlay-text">
+                <h3>Douliu Pomelo</h3>
+                <p style={{ textAlign: 'center' }}>(in progress)</p>
+                <p className="links">
+                  <a
+                    href="https://douliu-pomelo.000webhostapp.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    website
+                  </a>
+                  <a
+                    href="https://github.com/c-clin/douliu-pomelo"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    github
+                  </a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
 
       <div className="Projects">
         <div className="heading-box">
-          <h2>Projects</h2>
+          <h2>Personal Projects</h2>
         </div>
         <div className="content-box">
           <div className="project-box">
