@@ -260,24 +260,41 @@
   }
 
   .more-projects {
+    position: relative;
     display: inline-block;
     text-decoration: none;
-    position: relative;
     bottom: 0;
     left: 30%;
     font-size: 2rem;
     color: $color-primary-white;
     margin-top: 8rem;
-    transition: all 0.3s;
+    transition: color 0.5s;
+    z-index: 100;
 
     span {
       margin-left: 1rem;
       transition: margin-left 0.3s;
     }
 
+    &::after {
+      content: '.';
+      position: absolute;
+      left: 0;
+      height: 100%;
+      width: 0%;
+      background-color: $light-blue;
+      color: transparent;
+      transition: all 1s;
+      z-index: -1;
+    }
+
     &:hover {
-      background-color: rgba($light-blue, 0.8);
       color: $color-primary-black;
+      transition: color 0.5s;
+
+      &::after {
+        width: 100%;
+      }
 
       span {
         margin-left: 2rem;

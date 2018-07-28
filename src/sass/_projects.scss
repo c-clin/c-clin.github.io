@@ -104,7 +104,20 @@
   border: none;
   color: $color-primary-white;
   cursor: pointer;
-  transition: all 0.3s;
+  transition: all 0.5s;
+  z-index: 100;
+
+  &::after {
+    content: '.';
+    position: absolute;
+    right: 0;
+    height: 100%;
+    width: 0%;
+    background-color: $light-blue;
+    color: transparent;
+    transition: all 1s;
+    z-index: -1;
+  }
 
   span {
     margin-right: 0.6rem;
@@ -112,8 +125,12 @@
   }
 
   &:hover {
-    background-color: rgba($light-blue, 0.8);
     color: $color-primary-black;
+    transition: color 0.5s;
+
+    &::after {
+      width: 100%;
+    }
 
     span {
       outline: none;

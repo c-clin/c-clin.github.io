@@ -390,21 +390,34 @@
           top: 0;
           margin: 0; } }
   .Work .more-projects {
+    position: relative;
     display: inline-block;
     text-decoration: none;
-    position: relative;
     bottom: 0;
     left: 30%;
     font-size: 2rem;
     color: #fffff6;
     margin-top: 8rem;
-    transition: all 0.3s; }
+    transition: color 0.5s;
+    z-index: 100; }
     .Work .more-projects span {
       margin-left: 1rem;
       transition: margin-left 0.3s; }
+    .Work .more-projects::after {
+      content: '.';
+      position: absolute;
+      left: 0;
+      height: 100%;
+      width: 0%;
+      background-color: #ddf4fc;
+      color: transparent;
+      transition: all 1s;
+      z-index: -1; }
     .Work .more-projects:hover {
-      background-color: rgba(221, 244, 252, 0.8);
-      color: #47525e; }
+      color: #47525e;
+      transition: color 0.5s; }
+      .Work .more-projects:hover::after {
+        width: 100%; }
       .Work .more-projects:hover span {
         margin-left: 2rem; }
     @media only screen and (max-width: 1100px) {
@@ -632,13 +645,26 @@
   border: none;
   color: #fffff6;
   cursor: pointer;
-  transition: all 0.3s; }
+  transition: all 0.5s;
+  z-index: 100; }
+  .go-back-btn::after {
+    content: '.';
+    position: absolute;
+    right: 0;
+    height: 100%;
+    width: 0%;
+    background-color: #ddf4fc;
+    color: transparent;
+    transition: all 1s;
+    z-index: -1; }
   .go-back-btn span {
     margin-right: 0.6rem;
     transition: margin-right 0.3s; }
   .go-back-btn:hover {
-    background-color: rgba(221, 244, 252, 0.8);
-    color: #47525e; }
+    color: #47525e;
+    transition: color 0.5s; }
+    .go-back-btn:hover::after {
+      width: 100%; }
     .go-back-btn:hover span {
       outline: none;
       margin-right: 1.6rem; }
