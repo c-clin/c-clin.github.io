@@ -28,8 +28,6 @@ class App extends Component {
         $('.list-item-link')
           .addClass('top-link-hover')
           .removeClass('bottom-link-hover');
-
-        console.log('top!');
       }
     });
 
