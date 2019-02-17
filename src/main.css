@@ -232,7 +232,7 @@
     .Work {
       display: block; } }
   .Work .container {
-    height: 550px; }
+    height: 620px; }
     @media only screen and (max-width: 1100px) {
       .Work .container {
         height: 400px; } }
@@ -397,7 +397,6 @@
     left: 30%;
     font-size: 2rem;
     color: #fffff6;
-    margin-top: 8rem;
     transition: color 0.6s ease-out;
     z-index: 100; }
     .Work .more-projects span {
@@ -420,14 +419,10 @@
         width: 100%; }
       .Work .more-projects:hover span {
         margin-left: 2rem; }
-    @media only screen and (max-width: 1100px) {
-      .Work .more-projects {
-        position: absolute;
-        margin-bottom: 4rem; } }
     @media only screen and (max-width: 750px) {
       .Work .more-projects {
         position: relative;
-        margin-top: 10rem; } }
+        margin-top: 8rem; } }
 
 .Contact {
   padding: 9rem 0;
