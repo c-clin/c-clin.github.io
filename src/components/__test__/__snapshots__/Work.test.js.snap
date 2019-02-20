@@ -1,0 +1,2377 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Work renders properly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Work />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "children": <section
+        className="Work"
+>
+        <div
+                className="heading-box"
+        >
+                <h2>
+                        Work
+                </h2>
+        </div>
+        <div
+                className="content-box"
+        >
+                <div
+                        className="container"
+                >
+                        <div
+                                className="project-box"
+                        >
+                                <div
+                                        className="project project--1"
+                                >
+                                        <img
+                                                alt="MovieDeets"
+                                                src="moviedeets.jpg"
+                                        />
+                                        <div
+                                                className="overlay-text"
+                                        >
+                                                <h3>
+                                                        MovieDeets
+                                                </h3>
+                                                <p
+                                                        className="links"
+                                                >
+                                                        <a
+                                                                href="https://moviedeets.herokuapp.com/"
+                                                                rel="noopener noreferrer"
+                                                                target="_blank"
+                                                        >
+                                                                website
+                                                        </a>
+                                                        <a
+                                                                href="https://github.com/c-clin/moviedeets"
+                                                                rel="noopener noreferrer"
+                                                                target="_blank"
+                                                        >
+                                                                github
+                                                        </a>
+                                                </p>
+                                        </div>
+                                </div>
+                                <div
+                                        className="project project--2"
+                                >
+                                        <img
+                                                alt="Bars2Nite"
+                                                src="bars2nite.jpg"
+                                        />
+                                        <div
+                                                className="overlay-text"
+                                        >
+                                                <h3>
+                                                        Bars2Nite
+                                                </h3>
+                                                <p
+                                                        className="links"
+                                                >
+                                                        <a
+                                                                href="https://nightlife-28.herokuapp.com/"
+                                                                rel="noopener noreferrer"
+                                                                target="_blank"
+                                                        >
+                                                                website
+                                                        </a>
+                                                        <a
+                                                                href="https://github.com/c-clin/bars2nite"
+                                                                rel="noopener noreferrer"
+                                                                target="_blank"
+                                                        >
+                                                                github
+                                                        </a>
+                                                </p>
+                                        </div>
+                                </div>
+                                <div
+                                        className="project project--3"
+                                >
+                                        <img
+                                                alt="Prickles"
+                                                src="prickles.jpg"
+                                        />
+                                        <div
+                                                className="overlay-text"
+                                        >
+                                                <h3>
+                                                        Prickles
+                                                </h3>
+                                                <p
+                                                        className="links"
+                                                >
+                                                        <a
+                                                                href="http://prickles.surge.sh/"
+                                                                rel="noopener noreferrer"
+                                                                target="_blank"
+                                                        >
+                                                                website
+                                                        </a>
+                                                        <a
+                                                                href="https://github.com/c-clin/prickles"
+                                                                rel="noopener noreferrer"
+                                                                target="_blank"
+                                                        >
+                                                                github
+                                                        </a>
+                                                </p>
+                                        </div>
+                                </div>
+                        </div>
+                </div>
+                <Link
+                        className="more-projects"
+                        replace={false}
+                        to="/projects"
+                >
+                        See more projects
+                        <span>
+                                →
+                        </span>
+                </Link>
+        </div>
+</section>,
+      "name": "Work",
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <div
+            className="heading-box"
+>
+            <h2>
+                        Work
+            </h2>
+</div>,
+          <div
+            className="content-box"
+>
+            <div
+                        className="container"
+            >
+                        <div
+                                    className="project-box"
+                        >
+                                    <div
+                                                className="project project--1"
+                                    >
+                                                <img
+                                                            alt="MovieDeets"
+                                                            src="moviedeets.jpg"
+                                                />
+                                                <div
+                                                            className="overlay-text"
+                                                >
+                                                            <h3>
+                                                                        MovieDeets
+                                                            </h3>
+                                                            <p
+                                                                        className="links"
+                                                            >
+                                                                        <a
+                                                                                    href="https://moviedeets.herokuapp.com/"
+                                                                                    rel="noopener noreferrer"
+                                                                                    target="_blank"
+                                                                        >
+                                                                                    website
+                                                                        </a>
+                                                                        <a
+                                                                                    href="https://github.com/c-clin/moviedeets"
+                                                                                    rel="noopener noreferrer"
+                                                                                    target="_blank"
+                                                                        >
+                                                                                    github
+                                                                        </a>
+                                                            </p>
+                                                </div>
+                                    </div>
+                                    <div
+                                                className="project project--2"
+                                    >
+                                                <img
+                                                            alt="Bars2Nite"
+                                                            src="bars2nite.jpg"
+                                                />
+                                                <div
+                                                            className="overlay-text"
+                                                >
+                                                            <h3>
+                                                                        Bars2Nite
+                                                            </h3>
+                                                            <p
+                                                                        className="links"
+                                                            >
+                                                                        <a
+                                                                                    href="https://nightlife-28.herokuapp.com/"
+                                                                                    rel="noopener noreferrer"
+                                                                                    target="_blank"
+                                                                        >
+                                                                                    website
+                                                                        </a>
+                                                                        <a
+                                                                                    href="https://github.com/c-clin/bars2nite"
+                                                                                    rel="noopener noreferrer"
+                                                                                    target="_blank"
+                                                                        >
+                                                                                    github
+                                                                        </a>
+                                                            </p>
+                                                </div>
+                                    </div>
+                                    <div
+                                                className="project project--3"
+                                    >
+                                                <img
+                                                            alt="Prickles"
+                                                            src="prickles.jpg"
+                                                />
+                                                <div
+                                                            className="overlay-text"
+                                                >
+                                                            <h3>
+                                                                        Prickles
+                                                            </h3>
+                                                            <p
+                                                                        className="links"
+                                                            >
+                                                                        <a
+                                                                                    href="http://prickles.surge.sh/"
+                                                                                    rel="noopener noreferrer"
+                                                                                    target="_blank"
+                                                                        >
+                                                                                    website
+                                                                        </a>
+                                                                        <a
+                                                                                    href="https://github.com/c-clin/prickles"
+                                                                                    rel="noopener noreferrer"
+                                                                                    target="_blank"
+                                                                        >
+                                                                                    github
+                                                                        </a>
+                                                            </p>
+                                                </div>
+                                    </div>
+                        </div>
+            </div>
+            <Link
+                        className="more-projects"
+                        replace={false}
+                        to="/projects"
+            >
+                        See more projects
+                        <span>
+                                    →
+                        </span>
+            </Link>
+</div>,
+        ],
+        "className": "Work",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <h2>
+              Work
+</h2>,
+            "className": "heading-box",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Work",
+            },
+            "ref": null,
+            "rendered": "Work",
+            "type": "h2",
+          },
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <div
+                className="container"
+>
+                <div
+                                className="project-box"
+                >
+                                <div
+                                                className="project project--1"
+                                >
+                                                <img
+                                                                alt="MovieDeets"
+                                                                src="moviedeets.jpg"
+                                                />
+                                                <div
+                                                                className="overlay-text"
+                                                >
+                                                                <h3>
+                                                                                MovieDeets
+                                                                </h3>
+                                                                <p
+                                                                                className="links"
+                                                                >
+                                                                                <a
+                                                                                                href="https://moviedeets.herokuapp.com/"
+                                                                                                rel="noopener noreferrer"
+                                                                                                target="_blank"
+                                                                                >
+                                                                                                website
+                                                                                </a>
+                                                                                <a
+                                                                                                href="https://github.com/c-clin/moviedeets"
+                                                                                                rel="noopener noreferrer"
+                                                                                                target="_blank"
+                                                                                >
+                                                                                                github
+                                                                                </a>
+                                                                </p>
+                                                </div>
+                                </div>
+                                <div
+                                                className="project project--2"
+                                >
+                                                <img
+                                                                alt="Bars2Nite"
+                                                                src="bars2nite.jpg"
+                                                />
+                                                <div
+                                                                className="overlay-text"
+                                                >
+                                                                <h3>
+                                                                                Bars2Nite
+                                                                </h3>
+                                                                <p
+                                                                                className="links"
+                                                                >
+                                                                                <a
+                                                                                                href="https://nightlife-28.herokuapp.com/"
+                                                                                                rel="noopener noreferrer"
+                                                                                                target="_blank"
+                                                                                >
+                                                                                                website
+                                                                                </a>
+                                                                                <a
+                                                                                                href="https://github.com/c-clin/bars2nite"
+                                                                                                rel="noopener noreferrer"
+                                                                                                target="_blank"
+                                                                                >
+                                                                                                github
+                                                                                </a>
+                                                                </p>
+                                                </div>
+                                </div>
+                                <div
+                                                className="project project--3"
+                                >
+                                                <img
+                                                                alt="Prickles"
+                                                                src="prickles.jpg"
+                                                />
+                                                <div
+                                                                className="overlay-text"
+                                                >
+                                                                <h3>
+                                                                                Prickles
+                                                                </h3>
+                                                                <p
+                                                                                className="links"
+                                                                >
+                                                                                <a
+                                                                                                href="http://prickles.surge.sh/"
+                                                                                                rel="noopener noreferrer"
+                                                                                                target="_blank"
+                                                                                >
+                                                                                                website
+                                                                                </a>
+                                                                                <a
+                                                                                                href="https://github.com/c-clin/prickles"
+                                                                                                rel="noopener noreferrer"
+                                                                                                target="_blank"
+                                                                                >
+                                                                                                github
+                                                                                </a>
+                                                                </p>
+                                                </div>
+                                </div>
+                </div>
+</div>,
+              <Link
+                className="more-projects"
+                replace={false}
+                to="/projects"
+>
+                See more projects
+                <span>
+                                →
+                </span>
+</Link>,
+            ],
+            "className": "content-box",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <div
+                  className="project-box"
+>
+                  <div
+                                    className="project project--1"
+                  >
+                                    <img
+                                                      alt="MovieDeets"
+                                                      src="moviedeets.jpg"
+                                    />
+                                    <div
+                                                      className="overlay-text"
+                                    >
+                                                      <h3>
+                                                                        MovieDeets
+                                                      </h3>
+                                                      <p
+                                                                        className="links"
+                                                      >
+                                                                        <a
+                                                                                          href="https://moviedeets.herokuapp.com/"
+                                                                                          rel="noopener noreferrer"
+                                                                                          target="_blank"
+                                                                        >
+                                                                                          website
+                                                                        </a>
+                                                                        <a
+                                                                                          href="https://github.com/c-clin/moviedeets"
+                                                                                          rel="noopener noreferrer"
+                                                                                          target="_blank"
+                                                                        >
+                                                                                          github
+                                                                        </a>
+                                                      </p>
+                                    </div>
+                  </div>
+                  <div
+                                    className="project project--2"
+                  >
+                                    <img
+                                                      alt="Bars2Nite"
+                                                      src="bars2nite.jpg"
+                                    />
+                                    <div
+                                                      className="overlay-text"
+                                    >
+                                                      <h3>
+                                                                        Bars2Nite
+                                                      </h3>
+                                                      <p
+                                                                        className="links"
+                                                      >
+                                                                        <a
+                                                                                          href="https://nightlife-28.herokuapp.com/"
+                                                                                          rel="noopener noreferrer"
+                                                                                          target="_blank"
+                                                                        >
+                                                                                          website
+                                                                        </a>
+                                                                        <a
+                                                                                          href="https://github.com/c-clin/bars2nite"
+                                                                                          rel="noopener noreferrer"
+                                                                                          target="_blank"
+                                                                        >
+                                                                                          github
+                                                                        </a>
+                                                      </p>
+                                    </div>
+                  </div>
+                  <div
+                                    className="project project--3"
+                  >
+                                    <img
+                                                      alt="Prickles"
+                                                      src="prickles.jpg"
+                                    />
+                                    <div
+                                                      className="overlay-text"
+                                    >
+                                                      <h3>
+                                                                        Prickles
+                                                      </h3>
+                                                      <p
+                                                                        className="links"
+                                                      >
+                                                                        <a
+                                                                                          href="http://prickles.surge.sh/"
+                                                                                          rel="noopener noreferrer"
+                                                                                          target="_blank"
+                                                                        >
+                                                                                          website
+                                                                        </a>
+                                                                        <a
+                                                                                          href="https://github.com/c-clin/prickles"
+                                                                                          rel="noopener noreferrer"
+                                                                                          target="_blank"
+                                                                        >
+                                                                                          github
+                                                                        </a>
+                                                      </p>
+                                    </div>
+                  </div>
+</div>,
+                "className": "container",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <div
+                      className="project project--1"
+>
+                      <img
+                                            alt="MovieDeets"
+                                            src="moviedeets.jpg"
+                      />
+                      <div
+                                            className="overlay-text"
+                      >
+                                            <h3>
+                                                                  MovieDeets
+                                            </h3>
+                                            <p
+                                                                  className="links"
+                                            >
+                                                                  <a
+                                                                                        href="https://moviedeets.herokuapp.com/"
+                                                                                        rel="noopener noreferrer"
+                                                                                        target="_blank"
+                                                                  >
+                                                                                        website
+                                                                  </a>
+                                                                  <a
+                                                                                        href="https://github.com/c-clin/moviedeets"
+                                                                                        rel="noopener noreferrer"
+                                                                                        target="_blank"
+                                                                  >
+                                                                                        github
+                                                                  </a>
+                                            </p>
+                      </div>
+</div>,
+                    <div
+                      className="project project--2"
+>
+                      <img
+                                            alt="Bars2Nite"
+                                            src="bars2nite.jpg"
+                      />
+                      <div
+                                            className="overlay-text"
+                      >
+                                            <h3>
+                                                                  Bars2Nite
+                                            </h3>
+                                            <p
+                                                                  className="links"
+                                            >
+                                                                  <a
+                                                                                        href="https://nightlife-28.herokuapp.com/"
+                                                                                        rel="noopener noreferrer"
+                                                                                        target="_blank"
+                                                                  >
+                                                                                        website
+                                                                  </a>
+                                                                  <a
+                                                                                        href="https://github.com/c-clin/bars2nite"
+                                                                                        rel="noopener noreferrer"
+                                                                                        target="_blank"
+                                                                  >
+                                                                                        github
+                                                                  </a>
+                                            </p>
+                      </div>
+</div>,
+                    <div
+                      className="project project--3"
+>
+                      <img
+                                            alt="Prickles"
+                                            src="prickles.jpg"
+                      />
+                      <div
+                                            className="overlay-text"
+                      >
+                                            <h3>
+                                                                  Prickles
+                                            </h3>
+                                            <p
+                                                                  className="links"
+                                            >
+                                                                  <a
+                                                                                        href="http://prickles.surge.sh/"
+                                                                                        rel="noopener noreferrer"
+                                                                                        target="_blank"
+                                                                  >
+                                                                                        website
+                                                                  </a>
+                                                                  <a
+                                                                                        href="https://github.com/c-clin/prickles"
+                                                                                        rel="noopener noreferrer"
+                                                                                        target="_blank"
+                                                                  >
+                                                                                        github
+                                                                  </a>
+                                            </p>
+                      </div>
+</div>,
+                  ],
+                  "className": "project-box",
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        <img
+                          alt="MovieDeets"
+                          src="moviedeets.jpg"
+/>,
+                        <div
+                          className="overlay-text"
+>
+                          <h3>
+                                                    MovieDeets
+                          </h3>
+                          <p
+                                                    className="links"
+                          >
+                                                    <a
+                                                                              href="https://moviedeets.herokuapp.com/"
+                                                                              rel="noopener noreferrer"
+                                                                              target="_blank"
+                                                    >
+                                                                              website
+                                                    </a>
+                                                    <a
+                                                                              href="https://github.com/c-clin/moviedeets"
+                                                                              rel="noopener noreferrer"
+                                                                              target="_blank"
+                                                    >
+                                                                              github
+                                                    </a>
+                          </p>
+</div>,
+                      ],
+                      "className": "project project--1",
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "alt": "MovieDeets",
+                          "src": "moviedeets.jpg",
+                        },
+                        "ref": null,
+                        "rendered": null,
+                        "type": "img",
+                      },
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": Array [
+                            <h3>
+                              MovieDeets
+</h3>,
+                            <p
+                              className="links"
+>
+                              <a
+                                                            href="https://moviedeets.herokuapp.com/"
+                                                            rel="noopener noreferrer"
+                                                            target="_blank"
+                              >
+                                                            website
+                              </a>
+                              <a
+                                                            href="https://github.com/c-clin/moviedeets"
+                                                            rel="noopener noreferrer"
+                                                            target="_blank"
+                              >
+                                                            github
+                              </a>
+</p>,
+                          ],
+                          "className": "overlay-text",
+                        },
+                        "ref": null,
+                        "rendered": Array [
+                          Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {
+                              "children": "MovieDeets",
+                            },
+                            "ref": null,
+                            "rendered": "MovieDeets",
+                            "type": "h3",
+                          },
+                          Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {
+                              "children": Array [
+                                <a
+                                  href="https://moviedeets.herokuapp.com/"
+                                  rel="noopener noreferrer"
+                                  target="_blank"
+>
+                                  website
+</a>,
+                                <a
+                                  href="https://github.com/c-clin/moviedeets"
+                                  rel="noopener noreferrer"
+                                  target="_blank"
+>
+                                  github
+</a>,
+                              ],
+                              "className": "links",
+                            },
+                            "ref": null,
+                            "rendered": Array [
+                              Object {
+                                "instance": null,
+                                "key": undefined,
+                                "nodeType": "host",
+                                "props": Object {
+                                  "children": "website",
+                                  "href": "https://moviedeets.herokuapp.com/",
+                                  "rel": "noopener noreferrer",
+                                  "target": "_blank",
+                                },
+                                "ref": null,
+                                "rendered": "website",
+                                "type": "a",
+                              },
+                              Object {
+                                "instance": null,
+                                "key": undefined,
+                                "nodeType": "host",
+                                "props": Object {
+                                  "children": "github",
+                                  "href": "https://github.com/c-clin/moviedeets",
+                                  "rel": "noopener noreferrer",
+                                  "target": "_blank",
+                                },
+                                "ref": null,
+                                "rendered": "github",
+                                "type": "a",
+                              },
+                            ],
+                            "type": "p",
+                          },
+                        ],
+                        "type": "div",
+                      },
+                    ],
+                    "type": "div",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        <img
+                          alt="Bars2Nite"
+                          src="bars2nite.jpg"
+/>,
+                        <div
+                          className="overlay-text"
+>
+                          <h3>
+                                                    Bars2Nite
+                          </h3>
+                          <p
+                                                    className="links"
+                          >
+                                                    <a
+                                                                              href="https://nightlife-28.herokuapp.com/"
+                                                                              rel="noopener noreferrer"
+                                                                              target="_blank"
+                                                    >
+                                                                              website
+                                                    </a>
+                                                    <a
+                                                                              href="https://github.com/c-clin/bars2nite"
+                                                                              rel="noopener noreferrer"
+                                                                              target="_blank"
+                                                    >
+                                                                              github
+                                                    </a>
+                          </p>
+</div>,
+                      ],
+                      "className": "project project--2",
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "alt": "Bars2Nite",
+                          "src": "bars2nite.jpg",
+                        },
+                        "ref": null,
+                        "rendered": null,
+                        "type": "img",
+                      },
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": Array [
+                            <h3>
+                              Bars2Nite
+</h3>,
+                            <p
+                              className="links"
+>
+                              <a
+                                                            href="https://nightlife-28.herokuapp.com/"
+                                                            rel="noopener noreferrer"
+                                                            target="_blank"
+                              >
+                                                            website
+                              </a>
+                              <a
+                                                            href="https://github.com/c-clin/bars2nite"
+                                                            rel="noopener noreferrer"
+                                                            target="_blank"
+                              >
+                                                            github
+                              </a>
+</p>,
+                          ],
+                          "className": "overlay-text",
+                        },
+                        "ref": null,
+                        "rendered": Array [
+                          Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {
+                              "children": "Bars2Nite",
+                            },
+                            "ref": null,
+                            "rendered": "Bars2Nite",
+                            "type": "h3",
+                          },
+                          Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {
+                              "children": Array [
+                                <a
+                                  href="https://nightlife-28.herokuapp.com/"
+                                  rel="noopener noreferrer"
+                                  target="_blank"
+>
+                                  website
+</a>,
+                                <a
+                                  href="https://github.com/c-clin/bars2nite"
+                                  rel="noopener noreferrer"
+                                  target="_blank"
+>
+                                  github
+</a>,
+                              ],
+                              "className": "links",
+                            },
+                            "ref": null,
+                            "rendered": Array [
+                              Object {
+                                "instance": null,
+                                "key": undefined,
+                                "nodeType": "host",
+                                "props": Object {
+                                  "children": "website",
+                                  "href": "https://nightlife-28.herokuapp.com/",
+                                  "rel": "noopener noreferrer",
+                                  "target": "_blank",
+                                },
+                                "ref": null,
+                                "rendered": "website",
+                                "type": "a",
+                              },
+                              Object {
+                                "instance": null,
+                                "key": undefined,
+                                "nodeType": "host",
+                                "props": Object {
+                                  "children": "github",
+                                  "href": "https://github.com/c-clin/bars2nite",
+                                  "rel": "noopener noreferrer",
+                                  "target": "_blank",
+                                },
+                                "ref": null,
+                                "rendered": "github",
+                                "type": "a",
+                              },
+                            ],
+                            "type": "p",
+                          },
+                        ],
+                        "type": "div",
+                      },
+                    ],
+                    "type": "div",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        <img
+                          alt="Prickles"
+                          src="prickles.jpg"
+/>,
+                        <div
+                          className="overlay-text"
+>
+                          <h3>
+                                                    Prickles
+                          </h3>
+                          <p
+                                                    className="links"
+                          >
+                                                    <a
+                                                                              href="http://prickles.surge.sh/"
+                                                                              rel="noopener noreferrer"
+                                                                              target="_blank"
+                                                    >
+                                                                              website
+                                                    </a>
+                                                    <a
+                                                                              href="https://github.com/c-clin/prickles"
+                                                                              rel="noopener noreferrer"
+                                                                              target="_blank"
+                                                    >
+                                                                              github
+                                                    </a>
+                          </p>
+</div>,
+                      ],
+                      "className": "project project--3",
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "alt": "Prickles",
+                          "src": "prickles.jpg",
+                        },
+                        "ref": null,
+                        "rendered": null,
+                        "type": "img",
+                      },
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": Array [
+                            <h3>
+                              Prickles
+</h3>,
+                            <p
+                              className="links"
+>
+                              <a
+                                                            href="http://prickles.surge.sh/"
+                                                            rel="noopener noreferrer"
+                                                            target="_blank"
+                              >
+                                                            website
+                              </a>
+                              <a
+                                                            href="https://github.com/c-clin/prickles"
+                                                            rel="noopener noreferrer"
+                                                            target="_blank"
+                              >
+                                                            github
+                              </a>
+</p>,
+                          ],
+                          "className": "overlay-text",
+                        },
+                        "ref": null,
+                        "rendered": Array [
+                          Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {
+                              "children": "Prickles",
+                            },
+                            "ref": null,
+                            "rendered": "Prickles",
+                            "type": "h3",
+                          },
+                          Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {
+                              "children": Array [
+                                <a
+                                  href="http://prickles.surge.sh/"
+                                  rel="noopener noreferrer"
+                                  target="_blank"
+>
+                                  website
+</a>,
+                                <a
+                                  href="https://github.com/c-clin/prickles"
+                                  rel="noopener noreferrer"
+                                  target="_blank"
+>
+                                  github
+</a>,
+                              ],
+                              "className": "links",
+                            },
+                            "ref": null,
+                            "rendered": Array [
+                              Object {
+                                "instance": null,
+                                "key": undefined,
+                                "nodeType": "host",
+                                "props": Object {
+                                  "children": "website",
+                                  "href": "http://prickles.surge.sh/",
+                                  "rel": "noopener noreferrer",
+                                  "target": "_blank",
+                                },
+                                "ref": null,
+                                "rendered": "website",
+                                "type": "a",
+                              },
+                              Object {
+                                "instance": null,
+                                "key": undefined,
+                                "nodeType": "host",
+                                "props": Object {
+                                  "children": "github",
+                                  "href": "https://github.com/c-clin/prickles",
+                                  "rel": "noopener noreferrer",
+                                  "target": "_blank",
+                                },
+                                "ref": null,
+                                "rendered": "github",
+                                "type": "a",
+                              },
+                            ],
+                            "type": "p",
+                          },
+                        ],
+                        "type": "div",
+                      },
+                    ],
+                    "type": "div",
+                  },
+                ],
+                "type": "div",
+              },
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": Array [
+                  "See more projects",
+                  <span>
+                    →
+</span>,
+                ],
+                "className": "more-projects",
+                "replace": false,
+                "to": "/projects",
+              },
+              "ref": null,
+              "rendered": Array [
+                "See more projects",
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "→",
+                  },
+                  "ref": null,
+                  "rendered": "→",
+                  "type": "span",
+                },
+              ],
+              "type": [Function],
+            },
+          ],
+          "type": "div",
+        },
+      ],
+      "type": "section",
+    },
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": <section
+          className="Work"
+>
+          <div
+                    className="heading-box"
+          >
+                    <h2>
+                              Work
+                    </h2>
+          </div>
+          <div
+                    className="content-box"
+          >
+                    <div
+                              className="container"
+                    >
+                              <div
+                                        className="project-box"
+                              >
+                                        <div
+                                                  className="project project--1"
+                                        >
+                                                  <img
+                                                            alt="MovieDeets"
+                                                            src="moviedeets.jpg"
+                                                  />
+                                                  <div
+                                                            className="overlay-text"
+                                                  >
+                                                            <h3>
+                                                                      MovieDeets
+                                                            </h3>
+                                                            <p
+                                                                      className="links"
+                                                            >
+                                                                      <a
+                                                                                href="https://moviedeets.herokuapp.com/"
+                                                                                rel="noopener noreferrer"
+                                                                                target="_blank"
+                                                                      >
+                                                                                website
+                                                                      </a>
+                                                                      <a
+                                                                                href="https://github.com/c-clin/moviedeets"
+                                                                                rel="noopener noreferrer"
+                                                                                target="_blank"
+                                                                      >
+                                                                                github
+                                                                      </a>
+                                                            </p>
+                                                  </div>
+                                        </div>
+                                        <div
+                                                  className="project project--2"
+                                        >
+                                                  <img
+                                                            alt="Bars2Nite"
+                                                            src="bars2nite.jpg"
+                                                  />
+                                                  <div
+                                                            className="overlay-text"
+                                                  >
+                                                            <h3>
+                                                                      Bars2Nite
+                                                            </h3>
+                                                            <p
+                                                                      className="links"
+                                                            >
+                                                                      <a
+                                                                                href="https://nightlife-28.herokuapp.com/"
+                                                                                rel="noopener noreferrer"
+                                                                                target="_blank"
+                                                                      >
+                                                                                website
+                                                                      </a>
+                                                                      <a
+                                                                                href="https://github.com/c-clin/bars2nite"
+                                                                                rel="noopener noreferrer"
+                                                                                target="_blank"
+                                                                      >
+                                                                                github
+                                                                      </a>
+                                                            </p>
+                                                  </div>
+                                        </div>
+                                        <div
+                                                  className="project project--3"
+                                        >
+                                                  <img
+                                                            alt="Prickles"
+                                                            src="prickles.jpg"
+                                                  />
+                                                  <div
+                                                            className="overlay-text"
+                                                  >
+                                                            <h3>
+                                                                      Prickles
+                                                            </h3>
+                                                            <p
+                                                                      className="links"
+                                                            >
+                                                                      <a
+                                                                                href="http://prickles.surge.sh/"
+                                                                                rel="noopener noreferrer"
+                                                                                target="_blank"
+                                                                      >
+                                                                                website
+                                                                      </a>
+                                                                      <a
+                                                                                href="https://github.com/c-clin/prickles"
+                                                                                rel="noopener noreferrer"
+                                                                                target="_blank"
+                                                                      >
+                                                                                github
+                                                                      </a>
+                                                            </p>
+                                                  </div>
+                                        </div>
+                              </div>
+                    </div>
+                    <Link
+                              className="more-projects"
+                              replace={false}
+                              to="/projects"
+                    >
+                              See more projects
+                              <span>
+                                        →
+                              </span>
+                    </Link>
+          </div>
+</section>,
+        "name": "Work",
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <div
+              className="heading-box"
+>
+              <h2>
+                            Work
+              </h2>
+</div>,
+            <div
+              className="content-box"
+>
+              <div
+                            className="container"
+              >
+                            <div
+                                          className="project-box"
+                            >
+                                          <div
+                                                        className="project project--1"
+                                          >
+                                                        <img
+                                                                      alt="MovieDeets"
+                                                                      src="moviedeets.jpg"
+                                                        />
+                                                        <div
+                                                                      className="overlay-text"
+                                                        >
+                                                                      <h3>
+                                                                                    MovieDeets
+                                                                      </h3>
+                                                                      <p
+                                                                                    className="links"
+                                                                      >
+                                                                                    <a
+                                                                                                  href="https://moviedeets.herokuapp.com/"
+                                                                                                  rel="noopener noreferrer"
+                                                                                                  target="_blank"
+                                                                                    >
+                                                                                                  website
+                                                                                    </a>
+                                                                                    <a
+                                                                                                  href="https://github.com/c-clin/moviedeets"
+                                                                                                  rel="noopener noreferrer"
+                                                                                                  target="_blank"
+                                                                                    >
+                                                                                                  github
+                                                                                    </a>
+                                                                      </p>
+                                                        </div>
+                                          </div>
+                                          <div
+                                                        className="project project--2"
+                                          >
+                                                        <img
+                                                                      alt="Bars2Nite"
+                                                                      src="bars2nite.jpg"
+                                                        />
+                                                        <div
+                                                                      className="overlay-text"
+                                                        >
+                                                                      <h3>
+                                                                                    Bars2Nite
+                                                                      </h3>
+                                                                      <p
+                                                                                    className="links"
+                                                                      >
+                                                                                    <a
+                                                                                                  href="https://nightlife-28.herokuapp.com/"
+                                                                                                  rel="noopener noreferrer"
+                                                                                                  target="_blank"
+                                                                                    >
+                                                                                                  website
+                                                                                    </a>
+                                                                                    <a
+                                                                                                  href="https://github.com/c-clin/bars2nite"
+                                                                                                  rel="noopener noreferrer"
+                                                                                                  target="_blank"
+                                                                                    >
+                                                                                                  github
+                                                                                    </a>
+                                                                      </p>
+                                                        </div>
+                                          </div>
+                                          <div
+                                                        className="project project--3"
+                                          >
+                                                        <img
+                                                                      alt="Prickles"
+                                                                      src="prickles.jpg"
+                                                        />
+                                                        <div
+                                                                      className="overlay-text"
+                                                        >
+                                                                      <h3>
+                                                                                    Prickles
+                                                                      </h3>
+                                                                      <p
+                                                                                    className="links"
+                                                                      >
+                                                                                    <a
+                                                                                                  href="http://prickles.surge.sh/"
+                                                                                                  rel="noopener noreferrer"
+                                                                                                  target="_blank"
+                                                                                    >
+                                                                                                  website
+                                                                                    </a>
+                                                                                    <a
+                                                                                                  href="https://github.com/c-clin/prickles"
+                                                                                                  rel="noopener noreferrer"
+                                                                                                  target="_blank"
+                                                                                    >
+                                                                                                  github
+                                                                                    </a>
+                                                                      </p>
+                                                        </div>
+                                          </div>
+                            </div>
+              </div>
+              <Link
+                            className="more-projects"
+                            replace={false}
+                            to="/projects"
+              >
+                            See more projects
+                            <span>
+                                          →
+                            </span>
+              </Link>
+</div>,
+          ],
+          "className": "Work",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <h2>
+                Work
+</h2>,
+              "className": "heading-box",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Work",
+              },
+              "ref": null,
+              "rendered": "Work",
+              "type": "h2",
+            },
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <div
+                  className="container"
+>
+                  <div
+                                    className="project-box"
+                  >
+                                    <div
+                                                      className="project project--1"
+                                    >
+                                                      <img
+                                                                        alt="MovieDeets"
+                                                                        src="moviedeets.jpg"
+                                                      />
+                                                      <div
+                                                                        className="overlay-text"
+                                                      >
+                                                                        <h3>
+                                                                                          MovieDeets
+                                                                        </h3>
+                                                                        <p
+                                                                                          className="links"
+                                                                        >
+                                                                                          <a
+                                                                                                            href="https://moviedeets.herokuapp.com/"
+                                                                                                            rel="noopener noreferrer"
+                                                                                                            target="_blank"
+                                                                                          >
+                                                                                                            website
+                                                                                          </a>
+                                                                                          <a
+                                                                                                            href="https://github.com/c-clin/moviedeets"
+                                                                                                            rel="noopener noreferrer"
+                                                                                                            target="_blank"
+                                                                                          >
+                                                                                                            github
+                                                                                          </a>
+                                                                        </p>
+                                                      </div>
+                                    </div>
+                                    <div
+                                                      className="project project--2"
+                                    >
+                                                      <img
+                                                                        alt="Bars2Nite"
+                                                                        src="bars2nite.jpg"
+                                                      />
+                                                      <div
+                                                                        className="overlay-text"
+                                                      >
+                                                                        <h3>
+                                                                                          Bars2Nite
+                                                                        </h3>
+                                                                        <p
+                                                                                          className="links"
+                                                                        >
+                                                                                          <a
+                                                                                                            href="https://nightlife-28.herokuapp.com/"
+                                                                                                            rel="noopener noreferrer"
+                                                                                                            target="_blank"
+                                                                                          >
+                                                                                                            website
+                                                                                          </a>
+                                                                                          <a
+                                                                                                            href="https://github.com/c-clin/bars2nite"
+                                                                                                            rel="noopener noreferrer"
+                                                                                                            target="_blank"
+                                                                                          >
+                                                                                                            github
+                                                                                          </a>
+                                                                        </p>
+                                                      </div>
+                                    </div>
+                                    <div
+                                                      className="project project--3"
+                                    >
+                                                      <img
+                                                                        alt="Prickles"
+                                                                        src="prickles.jpg"
+                                                      />
+                                                      <div
+                                                                        className="overlay-text"
+                                                      >
+                                                                        <h3>
+                                                                                          Prickles
+                                                                        </h3>
+                                                                        <p
+                                                                                          className="links"
+                                                                        >
+                                                                                          <a
+                                                                                                            href="http://prickles.surge.sh/"
+                                                                                                            rel="noopener noreferrer"
+                                                                                                            target="_blank"
+                                                                                          >
+                                                                                                            website
+                                                                                          </a>
+                                                                                          <a
+                                                                                                            href="https://github.com/c-clin/prickles"
+                                                                                                            rel="noopener noreferrer"
+                                                                                                            target="_blank"
+                                                                                          >
+                                                                                                            github
+                                                                                          </a>
+                                                                        </p>
+                                                      </div>
+                                    </div>
+                  </div>
+</div>,
+                <Link
+                  className="more-projects"
+                  replace={false}
+                  to="/projects"
+>
+                  See more projects
+                  <span>
+                                    →
+                  </span>
+</Link>,
+              ],
+              "className": "content-box",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <div
+                    className="project-box"
+>
+                    <div
+                                        className="project project--1"
+                    >
+                                        <img
+                                                            alt="MovieDeets"
+                                                            src="moviedeets.jpg"
+                                        />
+                                        <div
+                                                            className="overlay-text"
+                                        >
+                                                            <h3>
+                                                                                MovieDeets
+                                                            </h3>
+                                                            <p
+                                                                                className="links"
+                                                            >
+                                                                                <a
+                                                                                                    href="https://moviedeets.herokuapp.com/"
+                                                                                                    rel="noopener noreferrer"
+                                                                                                    target="_blank"
+                                                                                >
+                                                                                                    website
+                                                                                </a>
+                                                                                <a
+                                                                                                    href="https://github.com/c-clin/moviedeets"
+                                                                                                    rel="noopener noreferrer"
+                                                                                                    target="_blank"
+                                                                                >
+                                                                                                    github
+                                                                                </a>
+                                                            </p>
+                                        </div>
+                    </div>
+                    <div
+                                        className="project project--2"
+                    >
+                                        <img
+                                                            alt="Bars2Nite"
+                                                            src="bars2nite.jpg"
+                                        />
+                                        <div
+                                                            className="overlay-text"
+                                        >
+                                                            <h3>
+                                                                                Bars2Nite
+                                                            </h3>
+                                                            <p
+                                                                                className="links"
+                                                            >
+                                                                                <a
+                                                                                                    href="https://nightlife-28.herokuapp.com/"
+                                                                                                    rel="noopener noreferrer"
+                                                                                                    target="_blank"
+                                                                                >
+                                                                                                    website
+                                                                                </a>
+                                                                                <a
+                                                                                                    href="https://github.com/c-clin/bars2nite"
+                                                                                                    rel="noopener noreferrer"
+                                                                                                    target="_blank"
+                                                                                >
+                                                                                                    github
+                                                                                </a>
+                                                            </p>
+                                        </div>
+                    </div>
+                    <div
+                                        className="project project--3"
+                    >
+                                        <img
+                                                            alt="Prickles"
+                                                            src="prickles.jpg"
+                                        />
+                                        <div
+                                                            className="overlay-text"
+                                        >
+                                                            <h3>
+                                                                                Prickles
+                                                            </h3>
+                                                            <p
+                                                                                className="links"
+                                                            >
+                                                                                <a
+                                                                                                    href="http://prickles.surge.sh/"
+                                                                                                    rel="noopener noreferrer"
+                                                                                                    target="_blank"
+                                                                                >
+                                                                                                    website
+                                                                                </a>
+                                                                                <a
+                                                                                                    href="https://github.com/c-clin/prickles"
+                                                                                                    rel="noopener noreferrer"
+                                                                                                    target="_blank"
+                                                                                >
+                                                                                                    github
+                                                                                </a>
+                                                            </p>
+                                        </div>
+                    </div>
+</div>,
+                  "className": "container",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <div
+                        className="project project--1"
+>
+                        <img
+                                                alt="MovieDeets"
+                                                src="moviedeets.jpg"
+                        />
+                        <div
+                                                className="overlay-text"
+                        >
+                                                <h3>
+                                                                        MovieDeets
+                                                </h3>
+                                                <p
+                                                                        className="links"
+                                                >
+                                                                        <a
+                                                                                                href="https://moviedeets.herokuapp.com/"
+                                                                                                rel="noopener noreferrer"
+                                                                                                target="_blank"
+                                                                        >
+                                                                                                website
+                                                                        </a>
+                                                                        <a
+                                                                                                href="https://github.com/c-clin/moviedeets"
+                                                                                                rel="noopener noreferrer"
+                                                                                                target="_blank"
+                                                                        >
+                                                                                                github
+                                                                        </a>
+                                                </p>
+                        </div>
+</div>,
+                      <div
+                        className="project project--2"
+>
+                        <img
+                                                alt="Bars2Nite"
+                                                src="bars2nite.jpg"
+                        />
+                        <div
+                                                className="overlay-text"
+                        >
+                                                <h3>
+                                                                        Bars2Nite
+                                                </h3>
+                                                <p
+                                                                        className="links"
+                                                >
+                                                                        <a
+                                                                                                href="https://nightlife-28.herokuapp.com/"
+                                                                                                rel="noopener noreferrer"
+                                                                                                target="_blank"
+                                                                        >
+                                                                                                website
+                                                                        </a>
+                                                                        <a
+                                                                                                href="https://github.com/c-clin/bars2nite"
+                                                                                                rel="noopener noreferrer"
+                                                                                                target="_blank"
+                                                                        >
+                                                                                                github
+                                                                        </a>
+                                                </p>
+                        </div>
+</div>,
+                      <div
+                        className="project project--3"
+>
+                        <img
+                                                alt="Prickles"
+                                                src="prickles.jpg"
+                        />
+                        <div
+                                                className="overlay-text"
+                        >
+                                                <h3>
+                                                                        Prickles
+                                                </h3>
+                                                <p
+                                                                        className="links"
+                                                >
+                                                                        <a
+                                                                                                href="http://prickles.surge.sh/"
+                                                                                                rel="noopener noreferrer"
+                                                                                                target="_blank"
+                                                                        >
+                                                                                                website
+                                                                        </a>
+                                                                        <a
+                                                                                                href="https://github.com/c-clin/prickles"
+                                                                                                rel="noopener noreferrer"
+                                                                                                target="_blank"
+                                                                        >
+                                                                                                github
+                                                                        </a>
+                                                </p>
+                        </div>
+</div>,
+                    ],
+                    "className": "project-box",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": Array [
+                          <img
+                            alt="MovieDeets"
+                            src="moviedeets.jpg"
+/>,
+                          <div
+                            className="overlay-text"
+>
+                            <h3>
+                                                        MovieDeets
+                            </h3>
+                            <p
+                                                        className="links"
+                            >
+                                                        <a
+                                                                                    href="https://moviedeets.herokuapp.com/"
+                                                                                    rel="noopener noreferrer"
+                                                                                    target="_blank"
+                                                        >
+                                                                                    website
+                                                        </a>
+                                                        <a
+                                                                                    href="https://github.com/c-clin/moviedeets"
+                                                                                    rel="noopener noreferrer"
+                                                                                    target="_blank"
+                                                        >
+                                                                                    github
+                                                        </a>
+                            </p>
+</div>,
+                        ],
+                        "className": "project project--1",
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "alt": "MovieDeets",
+                            "src": "moviedeets.jpg",
+                          },
+                          "ref": null,
+                          "rendered": null,
+                          "type": "img",
+                        },
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": Array [
+                              <h3>
+                                MovieDeets
+</h3>,
+                              <p
+                                className="links"
+>
+                                <a
+                                                                href="https://moviedeets.herokuapp.com/"
+                                                                rel="noopener noreferrer"
+                                                                target="_blank"
+                                >
+                                                                website
+                                </a>
+                                <a
+                                                                href="https://github.com/c-clin/moviedeets"
+                                                                rel="noopener noreferrer"
+                                                                target="_blank"
+                                >
+                                                                github
+                                </a>
+</p>,
+                            ],
+                            "className": "overlay-text",
+                          },
+                          "ref": null,
+                          "rendered": Array [
+                            Object {
+                              "instance": null,
+                              "key": undefined,
+                              "nodeType": "host",
+                              "props": Object {
+                                "children": "MovieDeets",
+                              },
+                              "ref": null,
+                              "rendered": "MovieDeets",
+                              "type": "h3",
+                            },
+                            Object {
+                              "instance": null,
+                              "key": undefined,
+                              "nodeType": "host",
+                              "props": Object {
+                                "children": Array [
+                                  <a
+                                    href="https://moviedeets.herokuapp.com/"
+                                    rel="noopener noreferrer"
+                                    target="_blank"
+>
+                                    website
+</a>,
+                                  <a
+                                    href="https://github.com/c-clin/moviedeets"
+                                    rel="noopener noreferrer"
+                                    target="_blank"
+>
+                                    github
+</a>,
+                                ],
+                                "className": "links",
+                              },
+                              "ref": null,
+                              "rendered": Array [
+                                Object {
+                                  "instance": null,
+                                  "key": undefined,
+                                  "nodeType": "host",
+                                  "props": Object {
+                                    "children": "website",
+                                    "href": "https://moviedeets.herokuapp.com/",
+                                    "rel": "noopener noreferrer",
+                                    "target": "_blank",
+                                  },
+                                  "ref": null,
+                                  "rendered": "website",
+                                  "type": "a",
+                                },
+                                Object {
+                                  "instance": null,
+                                  "key": undefined,
+                                  "nodeType": "host",
+                                  "props": Object {
+                                    "children": "github",
+                                    "href": "https://github.com/c-clin/moviedeets",
+                                    "rel": "noopener noreferrer",
+                                    "target": "_blank",
+                                  },
+                                  "ref": null,
+                                  "rendered": "github",
+                                  "type": "a",
+                                },
+                              ],
+                              "type": "p",
+                            },
+                          ],
+                          "type": "div",
+                        },
+                      ],
+                      "type": "div",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": Array [
+                          <img
+                            alt="Bars2Nite"
+                            src="bars2nite.jpg"
+/>,
+                          <div
+                            className="overlay-text"
+>
+                            <h3>
+                                                        Bars2Nite
+                            </h3>
+                            <p
+                                                        className="links"
+                            >
+                                                        <a
+                                                                                    href="https://nightlife-28.herokuapp.com/"
+                                                                                    rel="noopener noreferrer"
+                                                                                    target="_blank"
+                                                        >
+                                                                                    website
+                                                        </a>
+                                                        <a
+                                                                                    href="https://github.com/c-clin/bars2nite"
+                                                                                    rel="noopener noreferrer"
+                                                                                    target="_blank"
+                                                        >
+                                                                                    github
+                                                        </a>
+                            </p>
+</div>,
+                        ],
+                        "className": "project project--2",
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "alt": "Bars2Nite",
+                            "src": "bars2nite.jpg",
+                          },
+                          "ref": null,
+                          "rendered": null,
+                          "type": "img",
+                        },
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": Array [
+                              <h3>
+                                Bars2Nite
+</h3>,
+                              <p
+                                className="links"
+>
+                                <a
+                                                                href="https://nightlife-28.herokuapp.com/"
+                                                                rel="noopener noreferrer"
+                                                                target="_blank"
+                                >
+                                                                website
+                                </a>
+                                <a
+                                                                href="https://github.com/c-clin/bars2nite"
+                                                                rel="noopener noreferrer"
+                                                                target="_blank"
+                                >
+                                                                github
+                                </a>
+</p>,
+                            ],
+                            "className": "overlay-text",
+                          },
+                          "ref": null,
+                          "rendered": Array [
+                            Object {
+                              "instance": null,
+                              "key": undefined,
+                              "nodeType": "host",
+                              "props": Object {
+                                "children": "Bars2Nite",
+                              },
+                              "ref": null,
+                              "rendered": "Bars2Nite",
+                              "type": "h3",
+                            },
+                            Object {
+                              "instance": null,
+                              "key": undefined,
+                              "nodeType": "host",
+                              "props": Object {
+                                "children": Array [
+                                  <a
+                                    href="https://nightlife-28.herokuapp.com/"
+                                    rel="noopener noreferrer"
+                                    target="_blank"
+>
+                                    website
+</a>,
+                                  <a
+                                    href="https://github.com/c-clin/bars2nite"
+                                    rel="noopener noreferrer"
+                                    target="_blank"
+>
+                                    github
+</a>,
+                                ],
+                                "className": "links",
+                              },
+                              "ref": null,
+                              "rendered": Array [
+                                Object {
+                                  "instance": null,
+                                  "key": undefined,
+                                  "nodeType": "host",
+                                  "props": Object {
+                                    "children": "website",
+                                    "href": "https://nightlife-28.herokuapp.com/",
+                                    "rel": "noopener noreferrer",
+                                    "target": "_blank",
+                                  },
+                                  "ref": null,
+                                  "rendered": "website",
+                                  "type": "a",
+                                },
+                                Object {
+                                  "instance": null,
+                                  "key": undefined,
+                                  "nodeType": "host",
+                                  "props": Object {
+                                    "children": "github",
+                                    "href": "https://github.com/c-clin/bars2nite",
+                                    "rel": "noopener noreferrer",
+                                    "target": "_blank",
+                                  },
+                                  "ref": null,
+                                  "rendered": "github",
+                                  "type": "a",
+                                },
+                              ],
+                              "type": "p",
+                            },
+                          ],
+                          "type": "div",
+                        },
+                      ],
+                      "type": "div",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": Array [
+                          <img
+                            alt="Prickles"
+                            src="prickles.jpg"
+/>,
+                          <div
+                            className="overlay-text"
+>
+                            <h3>
+                                                        Prickles
+                            </h3>
+                            <p
+                                                        className="links"
+                            >
+                                                        <a
+                                                                                    href="http://prickles.surge.sh/"
+                                                                                    rel="noopener noreferrer"
+                                                                                    target="_blank"
+                                                        >
+                                                                                    website
+                                                        </a>
+                                                        <a
+                                                                                    href="https://github.com/c-clin/prickles"
+                                                                                    rel="noopener noreferrer"
+                                                                                    target="_blank"
+                                                        >
+                                                                                    github
+                                                        </a>
+                            </p>
+</div>,
+                        ],
+                        "className": "project project--3",
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "alt": "Prickles",
+                            "src": "prickles.jpg",
+                          },
+                          "ref": null,
+                          "rendered": null,
+                          "type": "img",
+                        },
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": Array [
+                              <h3>
+                                Prickles
+</h3>,
+                              <p
+                                className="links"
+>
+                                <a
+                                                                href="http://prickles.surge.sh/"
+                                                                rel="noopener noreferrer"
+                                                                target="_blank"
+                                >
+                                                                website
+                                </a>
+                                <a
+                                                                href="https://github.com/c-clin/prickles"
+                                                                rel="noopener noreferrer"
+                                                                target="_blank"
+                                >
+                                                                github
+                                </a>
+</p>,
+                            ],
+                            "className": "overlay-text",
+                          },
+                          "ref": null,
+                          "rendered": Array [
+                            Object {
+                              "instance": null,
+                              "key": undefined,
+                              "nodeType": "host",
+                              "props": Object {
+                                "children": "Prickles",
+                              },
+                              "ref": null,
+                              "rendered": "Prickles",
+                              "type": "h3",
+                            },
+                            Object {
+                              "instance": null,
+                              "key": undefined,
+                              "nodeType": "host",
+                              "props": Object {
+                                "children": Array [
+                                  <a
+                                    href="http://prickles.surge.sh/"
+                                    rel="noopener noreferrer"
+                                    target="_blank"
+>
+                                    website
+</a>,
+                                  <a
+                                    href="https://github.com/c-clin/prickles"
+                                    rel="noopener noreferrer"
+                                    target="_blank"
+>
+                                    github
+</a>,
+                                ],
+                                "className": "links",
+                              },
+                              "ref": null,
+                              "rendered": Array [
+                                Object {
+                                  "instance": null,
+                                  "key": undefined,
+                                  "nodeType": "host",
+                                  "props": Object {
+                                    "children": "website",
+                                    "href": "http://prickles.surge.sh/",
+                                    "rel": "noopener noreferrer",
+                                    "target": "_blank",
+                                  },
+                                  "ref": null,
+                                  "rendered": "website",
+                                  "type": "a",
+                                },
+                                Object {
+                                  "instance": null,
+                                  "key": undefined,
+                                  "nodeType": "host",
+                                  "props": Object {
+                                    "children": "github",
+                                    "href": "https://github.com/c-clin/prickles",
+                                    "rel": "noopener noreferrer",
+                                    "target": "_blank",
+                                  },
+                                  "ref": null,
+                                  "rendered": "github",
+                                  "type": "a",
+                                },
+                              ],
+                              "type": "p",
+                            },
+                          ],
+                          "type": "div",
+                        },
+                      ],
+                      "type": "div",
+                    },
+                  ],
+                  "type": "div",
+                },
+                "type": "div",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": Array [
+                    "See more projects",
+                    <span>
+                      →
+</span>,
+                  ],
+                  "className": "more-projects",
+                  "replace": false,
+                  "to": "/projects",
+                },
+                "ref": null,
+                "rendered": Array [
+                  "See more projects",
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "→",
+                    },
+                    "ref": null,
+                    "rendered": "→",
+                    "type": "span",
+                  },
+                ],
+                "type": [Function],
+              },
+            ],
+            "type": "div",
+          },
+        ],
+        "type": "section",
+      },
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    "disableLifecycleMethods": true,
+  },
+}
+`;
