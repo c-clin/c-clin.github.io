@@ -1,0 +1,613 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`About renders properly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <About />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "children": <section
+        className="About"
+>
+        <div
+                className="heading-box"
+        >
+                <h2>
+                        About
+                </h2>
+        </div>
+        <div
+                className="content-box"
+        >
+                <p
+                        className="about-me"
+                >
+                        Hi, I'm Catherine Lin, a Frontend Web Developer with a passion for designing and developing beautiful, modern, and responsive web apps. I majored in Economics at UCLA but discovered a knack for programming after graduating and ran with it. I love all things related to computer technologies and I'm constantly learning, innovating, and problem solving.
+                </p>
+                <br />
+                <p
+                        className="about-me"
+                >
+                        I am currently seeking a Front-End Developer role in the greater Los Angeles area so feel free to contact me if you are looking to hire! I am adaptable, a fast learner and I work well in a team environment.
+                </p>
+                <br />
+                <br />
+                <p
+                        className="about-me"
+                >
+                        <strong>
+                                Proficient:
+                        </strong>
+                         JavaScript, ES6, React, Redux, jQuery, HTML5/CSS3, SASS, Bootstrap, npm, responsive design, version control/Git, Photoshop
+                </p>
+                <p
+                        className="about-me"
+                >
+                        <strong>
+                                Skilled:
+                        </strong>
+                         Angular, Node, Express, MongoDB, Passport, Jest, Gulp
+                </p>
+        </div>
+</section>,
+      "name": "About",
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <div
+            className="heading-box"
+>
+            <h2>
+                        About
+            </h2>
+</div>,
+          <div
+            className="content-box"
+>
+            <p
+                        className="about-me"
+            >
+                        Hi, I'm Catherine Lin, a Frontend Web Developer with a passion for designing and developing beautiful, modern, and responsive web apps. I majored in Economics at UCLA but discovered a knack for programming after graduating and ran with it. I love all things related to computer technologies and I'm constantly learning, innovating, and problem solving.
+            </p>
+            <br />
+            <p
+                        className="about-me"
+            >
+                        I am currently seeking a Front-End Developer role in the greater Los Angeles area so feel free to contact me if you are looking to hire! I am adaptable, a fast learner and I work well in a team environment.
+            </p>
+            <br />
+            <br />
+            <p
+                        className="about-me"
+            >
+                        <strong>
+                                    Proficient:
+                        </strong>
+                         JavaScript, ES6, React, Redux, jQuery, HTML5/CSS3, SASS, Bootstrap, npm, responsive design, version control/Git, Photoshop
+            </p>
+            <p
+                        className="about-me"
+            >
+                        <strong>
+                                    Skilled:
+                        </strong>
+                         Angular, Node, Express, MongoDB, Passport, Jest, Gulp
+            </p>
+</div>,
+        ],
+        "className": "About",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <h2>
+              About
+</h2>,
+            "className": "heading-box",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "About",
+            },
+            "ref": null,
+            "rendered": "About",
+            "type": "h2",
+          },
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <p
+                className="about-me"
+>
+                Hi, I'm Catherine Lin, a Frontend Web Developer with a passion for designing and developing beautiful, modern, and responsive web apps. I majored in Economics at UCLA but discovered a knack for programming after graduating and ran with it. I love all things related to computer technologies and I'm constantly learning, innovating, and problem solving.
+</p>,
+              <br />,
+              <p
+                className="about-me"
+>
+                I am currently seeking a Front-End Developer role in the greater Los Angeles area so feel free to contact me if you are looking to hire! I am adaptable, a fast learner and I work well in a team environment.
+</p>,
+              <br />,
+              <br />,
+              <p
+                className="about-me"
+>
+                <strong>
+                                Proficient:
+                </strong>
+                 JavaScript, ES6, React, Redux, jQuery, HTML5/CSS3, SASS, Bootstrap, npm, responsive design, version control/Git, Photoshop
+</p>,
+              <p
+                className="about-me"
+>
+                <strong>
+                                Skilled:
+                </strong>
+                 Angular, Node, Express, MongoDB, Passport, Jest, Gulp
+</p>,
+            ],
+            "className": "content-box",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Hi, I'm Catherine Lin, a Frontend Web Developer with a passion for designing and developing beautiful, modern, and responsive web apps. I majored in Economics at UCLA but discovered a knack for programming after graduating and ran with it. I love all things related to computer technologies and I'm constantly learning, innovating, and problem solving.",
+                "className": "about-me",
+              },
+              "ref": null,
+              "rendered": "Hi, I'm Catherine Lin, a Frontend Web Developer with a passion for designing and developing beautiful, modern, and responsive web apps. I majored in Economics at UCLA but discovered a knack for programming after graduating and ran with it. I love all things related to computer technologies and I'm constantly learning, innovating, and problem solving.",
+              "type": "p",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {},
+              "ref": null,
+              "rendered": null,
+              "type": "br",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "I am currently seeking a Front-End Developer role in the greater Los Angeles area so feel free to contact me if you are looking to hire! I am adaptable, a fast learner and I work well in a team environment.",
+                "className": "about-me",
+              },
+              "ref": null,
+              "rendered": "I am currently seeking a Front-End Developer role in the greater Los Angeles area so feel free to contact me if you are looking to hire! I am adaptable, a fast learner and I work well in a team environment.",
+              "type": "p",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {},
+              "ref": null,
+              "rendered": null,
+              "type": "br",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {},
+              "ref": null,
+              "rendered": null,
+              "type": "br",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <strong>
+                    Proficient:
+</strong>,
+                  " JavaScript, ES6, React, Redux, jQuery, HTML5/CSS3, SASS, Bootstrap, npm, responsive design, version control/Git, Photoshop",
+                ],
+                "className": "about-me",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Proficient:",
+                  },
+                  "ref": null,
+                  "rendered": "Proficient:",
+                  "type": "strong",
+                },
+                " JavaScript, ES6, React, Redux, jQuery, HTML5/CSS3, SASS, Bootstrap, npm, responsive design, version control/Git, Photoshop",
+              ],
+              "type": "p",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <strong>
+                    Skilled:
+</strong>,
+                  " Angular, Node, Express, MongoDB, Passport, Jest, Gulp",
+                ],
+                "className": "about-me",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Skilled:",
+                  },
+                  "ref": null,
+                  "rendered": "Skilled:",
+                  "type": "strong",
+                },
+                " Angular, Node, Express, MongoDB, Passport, Jest, Gulp",
+              ],
+              "type": "p",
+            },
+          ],
+          "type": "div",
+        },
+      ],
+      "type": "section",
+    },
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": <section
+          className="About"
+>
+          <div
+                    className="heading-box"
+          >
+                    <h2>
+                              About
+                    </h2>
+          </div>
+          <div
+                    className="content-box"
+          >
+                    <p
+                              className="about-me"
+                    >
+                              Hi, I'm Catherine Lin, a Frontend Web Developer with a passion for designing and developing beautiful, modern, and responsive web apps. I majored in Economics at UCLA but discovered a knack for programming after graduating and ran with it. I love all things related to computer technologies and I'm constantly learning, innovating, and problem solving.
+                    </p>
+                    <br />
+                    <p
+                              className="about-me"
+                    >
+                              I am currently seeking a Front-End Developer role in the greater Los Angeles area so feel free to contact me if you are looking to hire! I am adaptable, a fast learner and I work well in a team environment.
+                    </p>
+                    <br />
+                    <br />
+                    <p
+                              className="about-me"
+                    >
+                              <strong>
+                                        Proficient:
+                              </strong>
+                               JavaScript, ES6, React, Redux, jQuery, HTML5/CSS3, SASS, Bootstrap, npm, responsive design, version control/Git, Photoshop
+                    </p>
+                    <p
+                              className="about-me"
+                    >
+                              <strong>
+                                        Skilled:
+                              </strong>
+                               Angular, Node, Express, MongoDB, Passport, Jest, Gulp
+                    </p>
+          </div>
+</section>,
+        "name": "About",
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <div
+              className="heading-box"
+>
+              <h2>
+                            About
+              </h2>
+</div>,
+            <div
+              className="content-box"
+>
+              <p
+                            className="about-me"
+              >
+                            Hi, I'm Catherine Lin, a Frontend Web Developer with a passion for designing and developing beautiful, modern, and responsive web apps. I majored in Economics at UCLA but discovered a knack for programming after graduating and ran with it. I love all things related to computer technologies and I'm constantly learning, innovating, and problem solving.
+              </p>
+              <br />
+              <p
+                            className="about-me"
+              >
+                            I am currently seeking a Front-End Developer role in the greater Los Angeles area so feel free to contact me if you are looking to hire! I am adaptable, a fast learner and I work well in a team environment.
+              </p>
+              <br />
+              <br />
+              <p
+                            className="about-me"
+              >
+                            <strong>
+                                          Proficient:
+                            </strong>
+                             JavaScript, ES6, React, Redux, jQuery, HTML5/CSS3, SASS, Bootstrap, npm, responsive design, version control/Git, Photoshop
+              </p>
+              <p
+                            className="about-me"
+              >
+                            <strong>
+                                          Skilled:
+                            </strong>
+                             Angular, Node, Express, MongoDB, Passport, Jest, Gulp
+              </p>
+</div>,
+          ],
+          "className": "About",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <h2>
+                About
+</h2>,
+              "className": "heading-box",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "About",
+              },
+              "ref": null,
+              "rendered": "About",
+              "type": "h2",
+            },
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <p
+                  className="about-me"
+>
+                  Hi, I'm Catherine Lin, a Frontend Web Developer with a passion for designing and developing beautiful, modern, and responsive web apps. I majored in Economics at UCLA but discovered a knack for programming after graduating and ran with it. I love all things related to computer technologies and I'm constantly learning, innovating, and problem solving.
+</p>,
+                <br />,
+                <p
+                  className="about-me"
+>
+                  I am currently seeking a Front-End Developer role in the greater Los Angeles area so feel free to contact me if you are looking to hire! I am adaptable, a fast learner and I work well in a team environment.
+</p>,
+                <br />,
+                <br />,
+                <p
+                  className="about-me"
+>
+                  <strong>
+                                    Proficient:
+                  </strong>
+                   JavaScript, ES6, React, Redux, jQuery, HTML5/CSS3, SASS, Bootstrap, npm, responsive design, version control/Git, Photoshop
+</p>,
+                <p
+                  className="about-me"
+>
+                  <strong>
+                                    Skilled:
+                  </strong>
+                   Angular, Node, Express, MongoDB, Passport, Jest, Gulp
+</p>,
+              ],
+              "className": "content-box",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Hi, I'm Catherine Lin, a Frontend Web Developer with a passion for designing and developing beautiful, modern, and responsive web apps. I majored in Economics at UCLA but discovered a knack for programming after graduating and ran with it. I love all things related to computer technologies and I'm constantly learning, innovating, and problem solving.",
+                  "className": "about-me",
+                },
+                "ref": null,
+                "rendered": "Hi, I'm Catherine Lin, a Frontend Web Developer with a passion for designing and developing beautiful, modern, and responsive web apps. I majored in Economics at UCLA but discovered a knack for programming after graduating and ran with it. I love all things related to computer technologies and I'm constantly learning, innovating, and problem solving.",
+                "type": "p",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {},
+                "ref": null,
+                "rendered": null,
+                "type": "br",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "I am currently seeking a Front-End Developer role in the greater Los Angeles area so feel free to contact me if you are looking to hire! I am adaptable, a fast learner and I work well in a team environment.",
+                  "className": "about-me",
+                },
+                "ref": null,
+                "rendered": "I am currently seeking a Front-End Developer role in the greater Los Angeles area so feel free to contact me if you are looking to hire! I am adaptable, a fast learner and I work well in a team environment.",
+                "type": "p",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {},
+                "ref": null,
+                "rendered": null,
+                "type": "br",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {},
+                "ref": null,
+                "rendered": null,
+                "type": "br",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <strong>
+                      Proficient:
+</strong>,
+                    " JavaScript, ES6, React, Redux, jQuery, HTML5/CSS3, SASS, Bootstrap, npm, responsive design, version control/Git, Photoshop",
+                  ],
+                  "className": "about-me",
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Proficient:",
+                    },
+                    "ref": null,
+                    "rendered": "Proficient:",
+                    "type": "strong",
+                  },
+                  " JavaScript, ES6, React, Redux, jQuery, HTML5/CSS3, SASS, Bootstrap, npm, responsive design, version control/Git, Photoshop",
+                ],
+                "type": "p",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <strong>
+                      Skilled:
+</strong>,
+                    " Angular, Node, Express, MongoDB, Passport, Jest, Gulp",
+                  ],
+                  "className": "about-me",
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Skilled:",
+                    },
+                    "ref": null,
+                    "rendered": "Skilled:",
+                    "type": "strong",
+                  },
+                  " Angular, Node, Express, MongoDB, Passport, Jest, Gulp",
+                ],
+                "type": "p",
+              },
+            ],
+            "type": "div",
+          },
+        ],
+        "type": "section",
+      },
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    "disableLifecycleMethods": true,
+  },
+}
+`;
