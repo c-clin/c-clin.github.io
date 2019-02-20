@@ -27,6 +27,10 @@
     "deploy": "gh-pages -b master -d build"
   },
   "devDependencies": {
-    "gh-pages": "^1.2.0"
+    "enzyme": "^3.9.0",
+    "enzyme-adapter-react-16": "^1.9.1",
+    "gh-pages": "^1.2.0",
+    "jest-cli": "^20.0.4",
+    "react-test-renderer": "^16.8.2"
   }
 }
