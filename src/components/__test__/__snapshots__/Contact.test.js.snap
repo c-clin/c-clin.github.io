@@ -1,0 +1,1129 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Contact renders properly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Contact />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "children": <section
+        className="Contact"
+>
+        <div
+                className="heading-box"
+        >
+                <h2>
+                        Contact
+                </h2>
+        </div>
+        <div
+                className="content-box"
+        >
+                <div
+                        className="contact-photo"
+                >
+                        <img
+                                alt="icon of me"
+                                className="contact-photo--icon"
+                                src="icon.jpg"
+                        />
+                        <div
+                                className="contact-photo--back"
+                        >
+                                <p>
+                                        feel free to say hi!
+                                        <i
+                                                aria-hidden="true"
+                                                className="fa fa-smile-o smile-icon"
+                                        />
+                                </p>
+                        </div>
+                </div>
+                <div
+                        className="contact-links"
+                >
+                        <a
+                                className="contact-links__container contact-links__container--1"
+                                href="mailto:catherine.lin.93@gmail.com"
+                        >
+                                <i
+                                        aria-hidden="true"
+                                        className="fa fa-envelope-o contact-icon previous"
+                                />
+                                <p>
+                                        catherine.lin.93@gmail.com
+                                </p>
+                        </a>
+                        <a
+                                className="contact-links__container contact-links__container--2"
+                                href="https://linkedin.com/in/catherine-lin-81545896"
+                        >
+                                <i
+                                        aria-hidden="true"
+                                        className="fa fa-linkedin contact-icon previous"
+                                />
+                                <p>
+                                        /catherinelin93
+                                </p>
+                        </a>
+                        <a
+                                className="contact-links__container contact-links__container--3"
+                                href="https://github.com/c-clin"
+                        >
+                                <i
+                                        aria-hidden="true"
+                                        className="fa fa-github contact-icon"
+                                />
+                                <p>
+                                        /c-clin
+                                </p>
+                        </a>
+                </div>
+        </div>
+</section>,
+      "name": "Contact",
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <div
+            className="heading-box"
+>
+            <h2>
+                        Contact
+            </h2>
+</div>,
+          <div
+            className="content-box"
+>
+            <div
+                        className="contact-photo"
+            >
+                        <img
+                                    alt="icon of me"
+                                    className="contact-photo--icon"
+                                    src="icon.jpg"
+                        />
+                        <div
+                                    className="contact-photo--back"
+                        >
+                                    <p>
+                                                feel free to say hi!
+                                                <i
+                                                            aria-hidden="true"
+                                                            className="fa fa-smile-o smile-icon"
+                                                />
+                                    </p>
+                        </div>
+            </div>
+            <div
+                        className="contact-links"
+            >
+                        <a
+                                    className="contact-links__container contact-links__container--1"
+                                    href="mailto:catherine.lin.93@gmail.com"
+                        >
+                                    <i
+                                                aria-hidden="true"
+                                                className="fa fa-envelope-o contact-icon previous"
+                                    />
+                                    <p>
+                                                catherine.lin.93@gmail.com
+                                    </p>
+                        </a>
+                        <a
+                                    className="contact-links__container contact-links__container--2"
+                                    href="https://linkedin.com/in/catherine-lin-81545896"
+                        >
+                                    <i
+                                                aria-hidden="true"
+                                                className="fa fa-linkedin contact-icon previous"
+                                    />
+                                    <p>
+                                                /catherinelin93
+                                    </p>
+                        </a>
+                        <a
+                                    className="contact-links__container contact-links__container--3"
+                                    href="https://github.com/c-clin"
+                        >
+                                    <i
+                                                aria-hidden="true"
+                                                className="fa fa-github contact-icon"
+                                    />
+                                    <p>
+                                                /c-clin
+                                    </p>
+                        </a>
+            </div>
+</div>,
+        ],
+        "className": "Contact",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <h2>
+              Contact
+</h2>,
+            "className": "heading-box",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Contact",
+            },
+            "ref": null,
+            "rendered": "Contact",
+            "type": "h2",
+          },
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <div
+                className="contact-photo"
+>
+                <img
+                                alt="icon of me"
+                                className="contact-photo--icon"
+                                src="icon.jpg"
+                />
+                <div
+                                className="contact-photo--back"
+                >
+                                <p>
+                                                feel free to say hi!
+                                                <i
+                                                                aria-hidden="true"
+                                                                className="fa fa-smile-o smile-icon"
+                                                />
+                                </p>
+                </div>
+</div>,
+              <div
+                className="contact-links"
+>
+                <a
+                                className="contact-links__container contact-links__container--1"
+                                href="mailto:catherine.lin.93@gmail.com"
+                >
+                                <i
+                                                aria-hidden="true"
+                                                className="fa fa-envelope-o contact-icon previous"
+                                />
+                                <p>
+                                                catherine.lin.93@gmail.com
+                                </p>
+                </a>
+                <a
+                                className="contact-links__container contact-links__container--2"
+                                href="https://linkedin.com/in/catherine-lin-81545896"
+                >
+                                <i
+                                                aria-hidden="true"
+                                                className="fa fa-linkedin contact-icon previous"
+                                />
+                                <p>
+                                                /catherinelin93
+                                </p>
+                </a>
+                <a
+                                className="contact-links__container contact-links__container--3"
+                                href="https://github.com/c-clin"
+                >
+                                <i
+                                                aria-hidden="true"
+                                                className="fa fa-github contact-icon"
+                                />
+                                <p>
+                                                /c-clin
+                                </p>
+                </a>
+</div>,
+            ],
+            "className": "content-box",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <img
+                    alt="icon of me"
+                    className="contact-photo--icon"
+                    src="icon.jpg"
+/>,
+                  <div
+                    className="contact-photo--back"
+>
+                    <p>
+                                        feel free to say hi!
+                                        <i
+                                                            aria-hidden="true"
+                                                            className="fa fa-smile-o smile-icon"
+                                        />
+                    </p>
+</div>,
+                ],
+                "className": "contact-photo",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "alt": "icon of me",
+                    "className": "contact-photo--icon",
+                    "src": "icon.jpg",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": "img",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": <p>
+                      feel free to say hi!
+                      <i
+                                            aria-hidden="true"
+                                            className="fa fa-smile-o smile-icon"
+                      />
+</p>,
+                    "className": "contact-photo--back",
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        "feel free to say hi!",
+                        <i
+                          aria-hidden="true"
+                          className="fa fa-smile-o smile-icon"
+/>,
+                      ],
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      "feel free to say hi!",
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "aria-hidden": "true",
+                          "className": "fa fa-smile-o smile-icon",
+                        },
+                        "ref": null,
+                        "rendered": null,
+                        "type": "i",
+                      },
+                    ],
+                    "type": "p",
+                  },
+                  "type": "div",
+                },
+              ],
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <a
+                    className="contact-links__container contact-links__container--1"
+                    href="mailto:catherine.lin.93@gmail.com"
+>
+                    <i
+                                        aria-hidden="true"
+                                        className="fa fa-envelope-o contact-icon previous"
+                    />
+                    <p>
+                                        catherine.lin.93@gmail.com
+                    </p>
+</a>,
+                  <a
+                    className="contact-links__container contact-links__container--2"
+                    href="https://linkedin.com/in/catherine-lin-81545896"
+>
+                    <i
+                                        aria-hidden="true"
+                                        className="fa fa-linkedin contact-icon previous"
+                    />
+                    <p>
+                                        /catherinelin93
+                    </p>
+</a>,
+                  <a
+                    className="contact-links__container contact-links__container--3"
+                    href="https://github.com/c-clin"
+>
+                    <i
+                                        aria-hidden="true"
+                                        className="fa fa-github contact-icon"
+                    />
+                    <p>
+                                        /c-clin
+                    </p>
+</a>,
+                ],
+                "className": "contact-links",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <i
+                        aria-hidden="true"
+                        className="fa fa-envelope-o contact-icon previous"
+/>,
+                      <p>
+                        catherine.lin.93@gmail.com
+</p>,
+                    ],
+                    "className": "contact-links__container contact-links__container--1",
+                    "href": "mailto:catherine.lin.93@gmail.com",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "aria-hidden": "true",
+                        "className": "fa fa-envelope-o contact-icon previous",
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": "i",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "catherine.lin.93@gmail.com",
+                      },
+                      "ref": null,
+                      "rendered": "catherine.lin.93@gmail.com",
+                      "type": "p",
+                    },
+                  ],
+                  "type": "a",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <i
+                        aria-hidden="true"
+                        className="fa fa-linkedin contact-icon previous"
+/>,
+                      <p>
+                        /catherinelin93
+</p>,
+                    ],
+                    "className": "contact-links__container contact-links__container--2",
+                    "href": "https://linkedin.com/in/catherine-lin-81545896",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "aria-hidden": "true",
+                        "className": "fa fa-linkedin contact-icon previous",
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": "i",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "/catherinelin93",
+                      },
+                      "ref": null,
+                      "rendered": "/catherinelin93",
+                      "type": "p",
+                    },
+                  ],
+                  "type": "a",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <i
+                        aria-hidden="true"
+                        className="fa fa-github contact-icon"
+/>,
+                      <p>
+                        /c-clin
+</p>,
+                    ],
+                    "className": "contact-links__container contact-links__container--3",
+                    "href": "https://github.com/c-clin",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "aria-hidden": "true",
+                        "className": "fa fa-github contact-icon",
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": "i",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "/c-clin",
+                      },
+                      "ref": null,
+                      "rendered": "/c-clin",
+                      "type": "p",
+                    },
+                  ],
+                  "type": "a",
+                },
+              ],
+              "type": "div",
+            },
+          ],
+          "type": "div",
+        },
+      ],
+      "type": "section",
+    },
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": <section
+          className="Contact"
+>
+          <div
+                    className="heading-box"
+          >
+                    <h2>
+                              Contact
+                    </h2>
+          </div>
+          <div
+                    className="content-box"
+          >
+                    <div
+                              className="contact-photo"
+                    >
+                              <img
+                                        alt="icon of me"
+                                        className="contact-photo--icon"
+                                        src="icon.jpg"
+                              />
+                              <div
+                                        className="contact-photo--back"
+                              >
+                                        <p>
+                                                  feel free to say hi!
+                                                  <i
+                                                            aria-hidden="true"
+                                                            className="fa fa-smile-o smile-icon"
+                                                  />
+                                        </p>
+                              </div>
+                    </div>
+                    <div
+                              className="contact-links"
+                    >
+                              <a
+                                        className="contact-links__container contact-links__container--1"
+                                        href="mailto:catherine.lin.93@gmail.com"
+                              >
+                                        <i
+                                                  aria-hidden="true"
+                                                  className="fa fa-envelope-o contact-icon previous"
+                                        />
+                                        <p>
+                                                  catherine.lin.93@gmail.com
+                                        </p>
+                              </a>
+                              <a
+                                        className="contact-links__container contact-links__container--2"
+                                        href="https://linkedin.com/in/catherine-lin-81545896"
+                              >
+                                        <i
+                                                  aria-hidden="true"
+                                                  className="fa fa-linkedin contact-icon previous"
+                                        />
+                                        <p>
+                                                  /catherinelin93
+                                        </p>
+                              </a>
+                              <a
+                                        className="contact-links__container contact-links__container--3"
+                                        href="https://github.com/c-clin"
+                              >
+                                        <i
+                                                  aria-hidden="true"
+                                                  className="fa fa-github contact-icon"
+                                        />
+                                        <p>
+                                                  /c-clin
+                                        </p>
+                              </a>
+                    </div>
+          </div>
+</section>,
+        "name": "Contact",
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <div
+              className="heading-box"
+>
+              <h2>
+                            Contact
+              </h2>
+</div>,
+            <div
+              className="content-box"
+>
+              <div
+                            className="contact-photo"
+              >
+                            <img
+                                          alt="icon of me"
+                                          className="contact-photo--icon"
+                                          src="icon.jpg"
+                            />
+                            <div
+                                          className="contact-photo--back"
+                            >
+                                          <p>
+                                                        feel free to say hi!
+                                                        <i
+                                                                      aria-hidden="true"
+                                                                      className="fa fa-smile-o smile-icon"
+                                                        />
+                                          </p>
+                            </div>
+              </div>
+              <div
+                            className="contact-links"
+              >
+                            <a
+                                          className="contact-links__container contact-links__container--1"
+                                          href="mailto:catherine.lin.93@gmail.com"
+                            >
+                                          <i
+                                                        aria-hidden="true"
+                                                        className="fa fa-envelope-o contact-icon previous"
+                                          />
+                                          <p>
+                                                        catherine.lin.93@gmail.com
+                                          </p>
+                            </a>
+                            <a
+                                          className="contact-links__container contact-links__container--2"
+                                          href="https://linkedin.com/in/catherine-lin-81545896"
+                            >
+                                          <i
+                                                        aria-hidden="true"
+                                                        className="fa fa-linkedin contact-icon previous"
+                                          />
+                                          <p>
+                                                        /catherinelin93
+                                          </p>
+                            </a>
+                            <a
+                                          className="contact-links__container contact-links__container--3"
+                                          href="https://github.com/c-clin"
+                            >
+                                          <i
+                                                        aria-hidden="true"
+                                                        className="fa fa-github contact-icon"
+                                          />
+                                          <p>
+                                                        /c-clin
+                                          </p>
+                            </a>
+              </div>
+</div>,
+          ],
+          "className": "Contact",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <h2>
+                Contact
+</h2>,
+              "className": "heading-box",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Contact",
+              },
+              "ref": null,
+              "rendered": "Contact",
+              "type": "h2",
+            },
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <div
+                  className="contact-photo"
+>
+                  <img
+                                    alt="icon of me"
+                                    className="contact-photo--icon"
+                                    src="icon.jpg"
+                  />
+                  <div
+                                    className="contact-photo--back"
+                  >
+                                    <p>
+                                                      feel free to say hi!
+                                                      <i
+                                                                        aria-hidden="true"
+                                                                        className="fa fa-smile-o smile-icon"
+                                                      />
+                                    </p>
+                  </div>
+</div>,
+                <div
+                  className="contact-links"
+>
+                  <a
+                                    className="contact-links__container contact-links__container--1"
+                                    href="mailto:catherine.lin.93@gmail.com"
+                  >
+                                    <i
+                                                      aria-hidden="true"
+                                                      className="fa fa-envelope-o contact-icon previous"
+                                    />
+                                    <p>
+                                                      catherine.lin.93@gmail.com
+                                    </p>
+                  </a>
+                  <a
+                                    className="contact-links__container contact-links__container--2"
+                                    href="https://linkedin.com/in/catherine-lin-81545896"
+                  >
+                                    <i
+                                                      aria-hidden="true"
+                                                      className="fa fa-linkedin contact-icon previous"
+                                    />
+                                    <p>
+                                                      /catherinelin93
+                                    </p>
+                  </a>
+                  <a
+                                    className="contact-links__container contact-links__container--3"
+                                    href="https://github.com/c-clin"
+                  >
+                                    <i
+                                                      aria-hidden="true"
+                                                      className="fa fa-github contact-icon"
+                                    />
+                                    <p>
+                                                      /c-clin
+                                    </p>
+                  </a>
+</div>,
+              ],
+              "className": "content-box",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <img
+                      alt="icon of me"
+                      className="contact-photo--icon"
+                      src="icon.jpg"
+/>,
+                    <div
+                      className="contact-photo--back"
+>
+                      <p>
+                                            feel free to say hi!
+                                            <i
+                                                                  aria-hidden="true"
+                                                                  className="fa fa-smile-o smile-icon"
+                                            />
+                      </p>
+</div>,
+                  ],
+                  "className": "contact-photo",
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "alt": "icon of me",
+                      "className": "contact-photo--icon",
+                      "src": "icon.jpg",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": "img",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": <p>
+                        feel free to say hi!
+                        <i
+                                                aria-hidden="true"
+                                                className="fa fa-smile-o smile-icon"
+                        />
+</p>,
+                      "className": "contact-photo--back",
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": Array [
+                          "feel free to say hi!",
+                          <i
+                            aria-hidden="true"
+                            className="fa fa-smile-o smile-icon"
+/>,
+                        ],
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        "feel free to say hi!",
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "aria-hidden": "true",
+                            "className": "fa fa-smile-o smile-icon",
+                          },
+                          "ref": null,
+                          "rendered": null,
+                          "type": "i",
+                        },
+                      ],
+                      "type": "p",
+                    },
+                    "type": "div",
+                  },
+                ],
+                "type": "div",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <a
+                      className="contact-links__container contact-links__container--1"
+                      href="mailto:catherine.lin.93@gmail.com"
+>
+                      <i
+                                            aria-hidden="true"
+                                            className="fa fa-envelope-o contact-icon previous"
+                      />
+                      <p>
+                                            catherine.lin.93@gmail.com
+                      </p>
+</a>,
+                    <a
+                      className="contact-links__container contact-links__container--2"
+                      href="https://linkedin.com/in/catherine-lin-81545896"
+>
+                      <i
+                                            aria-hidden="true"
+                                            className="fa fa-linkedin contact-icon previous"
+                      />
+                      <p>
+                                            /catherinelin93
+                      </p>
+</a>,
+                    <a
+                      className="contact-links__container contact-links__container--3"
+                      href="https://github.com/c-clin"
+>
+                      <i
+                                            aria-hidden="true"
+                                            className="fa fa-github contact-icon"
+                      />
+                      <p>
+                                            /c-clin
+                      </p>
+</a>,
+                  ],
+                  "className": "contact-links",
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        <i
+                          aria-hidden="true"
+                          className="fa fa-envelope-o contact-icon previous"
+/>,
+                        <p>
+                          catherine.lin.93@gmail.com
+</p>,
+                      ],
+                      "className": "contact-links__container contact-links__container--1",
+                      "href": "mailto:catherine.lin.93@gmail.com",
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "aria-hidden": "true",
+                          "className": "fa fa-envelope-o contact-icon previous",
+                        },
+                        "ref": null,
+                        "rendered": null,
+                        "type": "i",
+                      },
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": "catherine.lin.93@gmail.com",
+                        },
+                        "ref": null,
+                        "rendered": "catherine.lin.93@gmail.com",
+                        "type": "p",
+                      },
+                    ],
+                    "type": "a",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        <i
+                          aria-hidden="true"
+                          className="fa fa-linkedin contact-icon previous"
+/>,
+                        <p>
+                          /catherinelin93
+</p>,
+                      ],
+                      "className": "contact-links__container contact-links__container--2",
+                      "href": "https://linkedin.com/in/catherine-lin-81545896",
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "aria-hidden": "true",
+                          "className": "fa fa-linkedin contact-icon previous",
+                        },
+                        "ref": null,
+                        "rendered": null,
+                        "type": "i",
+                      },
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": "/catherinelin93",
+                        },
+                        "ref": null,
+                        "rendered": "/catherinelin93",
+                        "type": "p",
+                      },
+                    ],
+                    "type": "a",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        <i
+                          aria-hidden="true"
+                          className="fa fa-github contact-icon"
+/>,
+                        <p>
+                          /c-clin
+</p>,
+                      ],
+                      "className": "contact-links__container contact-links__container--3",
+                      "href": "https://github.com/c-clin",
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "aria-hidden": "true",
+                          "className": "fa fa-github contact-icon",
+                        },
+                        "ref": null,
+                        "rendered": null,
+                        "type": "i",
+                      },
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": "/c-clin",
+                        },
+                        "ref": null,
+                        "rendered": "/c-clin",
+                        "type": "p",
+                      },
+                    ],
+                    "type": "a",
+                  },
+                ],
+                "type": "div",
+              },
+            ],
+            "type": "div",
+          },
+        ],
+        "type": "section",
+      },
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    "disableLifecycleMethods": true,
+  },
+}
+`;
