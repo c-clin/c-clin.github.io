@@ -36,8 +36,4 @@ describe('Projects', () => {
   it('contains a go back button', () => {
     expect(projects.find('.go-back-btn').exists()).toBe(true);
   });
-
-  //   it('renders 9 projects', () => {
-  //       expect(projects.find(''))
-  //   })
 });
