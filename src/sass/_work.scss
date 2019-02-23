@@ -261,7 +261,10 @@
 
   .more-projects {
     position: relative;
-    display: block;
+    display: flex;
+    width: 200px;
+    margin: 0 auto;
+    justify-content: center;
     text-decoration: none;
     bottom: 0;
     // left: 30%;
@@ -271,11 +274,6 @@
     // margin-top: 8rem;
     transition: color 0.6s ease-out;
     z-index: 100;
-
-    span {
-      margin-left: 1rem;
-      transition: margin-left 0.3s;
-    }
 
     &::after {
       content: '.';
@@ -299,6 +297,7 @@
 
       span {
         margin-left: 2rem;
+        transition: all 0.3s;
       }
     }
 
